@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wiki-OP Lisboa</title>
+    <link rel='icon' href="assets/img/Locals_ID_Oficial.png" type='image/x-icon' sizes="16x16" />
+    <link rel="icon" href="https://www.localsapproach.org/WIKIOP/Locals_ID_Oficial" />
+    <!--BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!--BOOTSTRAP CSS -->
+
+
+    <!--FONTS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&amp;subset=latin-ext">
+    <!--FONTS -->
+
+
+    <!--CHOSEN FILTER -->
+    <link rel="stylesheet" href="assets/chosen/chosen.css">
+    <!--CHOSEN FILTER -->
+
+
+     <!--FONT AWESOME -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/all.css">
+    <!--FONT AWESOME -->
+
+
+    <!--JQUERY FULLPAGE CSS -->
+    <link rel="stylesheet" href="assets/css/jquery.fullpage.css">
+    <!--JQUERY FULLPAGE CSS -->
+
+
+    <!--ESTILOS PERSONALIZADOS CSS -->
+    <link rel="stylesheet" href="assets/css/estiloswikiop.css">    
+    <link rel="stylesheet" href="assets/css/estilosaccordionsidepanel.css">
+    <link rel="stylesheet" href="assets/css/fullpage_wikiop.css">
+    <link rel="stylesheet" href="assets/css/isotopeloader.css">
+       <link rel="stylesheet" href="assets/css/-Filterable-Cards-.css">
+    <!--ESTILOS PERSONALIZADOS CSS -->
+
+ <!-- JQUERY 3.4.1 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- JQUERY 3.4.1 -->
+
+<!-- BOOTSTRAP 4.3.1 -->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- BOOTSTRAP 4.3.1 -->
+
+<script>
+
+    $(document).ready(function(){
+
+        $("#myModalpopup").modal('show');
+
+    });
+
+</script>
+
+
+</head>
+
+<body style="font-family: 'Maven Pro', sans-serif;">
+
+
+    <!--POP UP ALERT-->
+    <div id="myModalpopup" class="modal fade">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button type="button" style="margin-left:0!important; color:#125582;" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                    <h4 class="modal-title">POP-UP EXPLICATIVO?</h4>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--POP UP ALERT-->
+    <!--SIDEPANEL OVERLAY-->
+    <div class="bs-canvas-overlay bg-dark position-fixed w-100 h-100"></div>
+
+    <!--SIDEPANEL-->
+    <!-- SIDEPANEL CONTENT -->
+    <div id="bs-canvas-right" class="bs-canvas bs-canvas-right position-fixed bg-light h-100">
+        <header class="bs-canvas-header p-3 bg-danger overflow-auto ">
+            <button type="button" class="bs-canvas-close float-left close" aria-label="Close" aria-expanded="false"><span aria-hidden="true" class="text-light">&times;</span></button>
+            <h4 class="text-light text-center align-self-center mb-0 ">INSPIRA-TE</h4>
+        </header>
+        <div class="bs-canvas-content px-3 py-5">
+
+            <!-- CHOSEN FILTER -->
+            <div id="filterGroup">
+                Filtre por:<br />
+                <select class="chosen-select filter option-set" data-placeholder="Escolha um tema" data-filter-group="color" tabindex="4" multiple style="width:50%;">
+
+                    <option data-filter-value="*">All</option>
+                    <option data-filter-value=".temaambiente">Ambiente</option>
+                    <option data-filter-value=".temaagua">Água</option>
+                    <option data-filter-value=".temaenergia">Energia</option>
+                    <option data-filter-value=".temamobilidade">Mobilidade</option>
+                    <option data-filter-value=".temareciclagem">Reciclagem</option>
+
+                </select>
+
+                <select class="chosen-select filter option-set " data-placeholder="Escolha um objectivo" data-filter-group="size" tabindex="4" multiple style="width:50%;">
+
+                    <option data-filter-value="*">All</option>
+                    <option data-filter-value=".propositomeet">to meet</option>
+                    <option data-filter-value=".propositocreate">to create</option>
+                    <option data-filter-value=".propositocontribute">to contribute</option>
+                    <option data-filter-value=".propositoimprove">to improve</option>
+                    <option data-filter-value=".propositosupport">to support change</option>
+                    <option data-filter-value=".propositotackle">to tackle</option>
+                    <option data-filter-value=".propositodrive">to drive</option>
+                    <option data-filter-value="propositoenable">to enable</option>
+                    <option data-filter-value=".propositoaccelarate">to accelarate</option>
+                    <option data-filter-value=".propositodeliver">to deliver</option>
+
+                    <option data-filter-value=".propositoassist">to assist</option>
+                    <option data-filter-value=".propositodevelop">to develop</option>
+                    <option data-filter-value=".propositocatalyse">to catalyse</option>
+                    <option data-filter-value=".propositocatalysechange">to catalyse change</option>
+                    <option data-filter-value=".propositoimpact">to impact</option>
+                    <option data-filter-value=".propositoattest">to attest</option>
+                    <option data-filter-value=".propositorecord">to record</option>
+                    <option data-filter-value=".propositodemonstrate">to demonstrate</option>
+                    <option data-filter-value=".propositoinnovate">to innovate</option>
+                    <option data-filter-value=".propositoconsolidate">to consolidate</option>
+
+                </select>
+
+            </div>
+            <!-- CHOSEN FILTER -->
+            <!-- ISOTOPE PROJECTOS -->
+            <div id="containerisotope">
+
+                <!-- #1 - ISOTOPE PROJECTO -->
+                <div class="itemiso temaambiente temaenergia propositomeet propositocreate propositoimprove">
+
+                    <div class="minimise"><div class="linha_redonda_azul_maxi"></div><h1>Design for the Base/Bottom of the Pyramid (Bop)</h1><br /></div>
+                    <div id="maximise">
+                        <div class="linha_redonda_azul_maxi1"></div>
+                        <div id="img-container">
+                            <div class="product-info0">
+                                <h1>Design for the Base/Bottom of the Pyramid (Bop)</h1>
+
+                                <h2>Use of design, collaborative and participatory methods human centered approach and sustainability concerns to create solutions to meet the needs and <span style="color:#00d2c3">improve health, income and living conditions of individuals and communities living in absolute poverty, at the base of the (economic) pyramid</span>  – the estimated 4-billion people living on incomes less than $4/day (Whitney & Kelkar 2004).</h2>
+                            </div>
+                        </div>
+
+                        <div id="img-container1">
+                            <div class="product-info">
+                                <div class="linha_redonda_azul_maxi">Who and Where<br /></div><h2>
+                                    <a style="color:black; text-decoration:none" href="http://d-rev.org" target="_blank"><strong>D-REV</strong></a>   <br />
+                                    U.S.A.~ India, Haiti, Nepal, Ecuador, Uganda, Kenya, Tanzania, Nigeria, Sri Lanka, Btswana, Bangladesh, Iraq <br /><img src="simbolo.png" alt="symbol"><br />
+                                    <a style="color:black; text-decoration:none" href="http://www.io.tudelft.nl/en/research/oud/projecten/base-of-the-pyramid/" target="_blank"><strong>Base of the Pyramid Program, Faculty of Industrial Design Engeneering, TU Delft</strong></a><br />
+                                    The Netherlands~ Botswana, Brazil, Cambodia, China, Ethiopia, Gambia, Ghana, Guatemala, Honduras, India, Indonesia, Kenya, Madagascar, Tanzania, Vietnam <br /><br />
+                                    <a style="color:black; text-decoration:none" href="http://id.iit.edu/research-projects/faculty-led-research/design-for-the-base-of-the-pyramid/" target="_blank"><strong>Design for the Base of the Pyramid Research, Institute of Design ITT</strong></a>
+                                    <br />
+                                    U.S.A.~ India, U.S.A. <br /><br /><a style="color:black; text-decoration:none" href="http://d-lab.mit.edu/" target="_blank"><strong>D-Lab, MIT</strong></a>
+                                    <br />
+                                    U.S.A.~ Brazil, Cambodia, El Salvador, Ghana, Guatemala, Haiti, Honduras, India, Nicaragua, Tanzania, Uganda, Zambia
+                                </h2>
+                            </div>
+                        </div>
+                        <div id="img-container2">
+                            <div class="product-info1">
+                                <div class="hmil1">Process</div>
+                                <div class="hmil">Design, Human centered, Sustainability</div>
+                            </div>
+                            <div class="product-info1">
+                                <div class="hmil1">Purpose</div>
+                                <div class="hmil">to create . to meet . to improve</div>
+                            </div>
+                            <div class="product-info1"><div class="hmil1">Problem</div><div class="hmil">- individuals and communities living in absolute poverty, at the base of the (economical) pyramid.</div></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- #1 - ISOTOPE PROJECTO -->
+                <!-- #2 - ISOTOPE PROJECTO -->
+                <div class="itemiso temaagua propositoassist">
+                    <div class="minimise"><div class="linha_redonda_azul_maxi"></div><h1>Humanitarian Design</h1></div>
+                    <div id="maximise">
+                        <div class="linha_redonda_azul_maxi1"></div>
+                        <div id="img-container">
+                            <div class="product-info0">
+                                <h1>Humanitarian Design</h1>
+                                <h2>Use of design, collaborative and participatory methods and human centered approach to create solutions <span style="color:#00d2c3">to support or assist individuals lacking basic human needs and rights</span> – food, shelter, water, electric power, sanitation, education, health etc – with all actors and bodies involved in <span style="color:#00d2c3">emergency humanitarian aid and development in contexts of extreme poverty, devastation caused by war or natural disasters</span> (Nussbaum 2010; Cary & Meron 2013).</h2>
+                            </div>
+                        </div>
+
+                        <div id="img-container1">
+                            <div class="product-info">
+                                <div class="linha_redonda_azul_maxi">Who and Where<br /></div><h2>
+                                    <a style="color:black; text-decoration:none" href="http://humanitariandatabase.com" target="_blank"><strong>Humanitarian Design Bureau</strong></a> <br />
+                                    France<br /> <br /><br /><a style="color:black; text-decoration:none" href="http://littlesun.com" target="_blank"><strong>Little Sun</strong></a>
+                                    <br />
+                                    Germany~ Burundi, Ethiopia, E.U., Japan, Kenya, Senegal, South Africa, Uganda, U.S.A., Zimbabwe <br /><br />
+                                    <a style="color:black; text-decoration:none" href="http://www.razon-social.org" target="_blank"><strong>Razón Social</strong></a>
+                                    <br />
+                                    Mexico <br /><br />
+                                    <a style="color:black; text-decoration:none" href="http://designerswithoutborders.org" target="_blank"><strong>Designers without borders</strong></a>
+                                    <br />
+                                    Uganda, U.S.A.~ Cameroun, South Africa, Uganda, U.S.A.
+                                </h2>
+                            </div>
+                        </div>
+                        <div id="img-container2">
+                            <div class="product-info1">
+                                <div class="hmil1">Process</div>
+                                <div class="hmil">Design, Collaborative Participative, Human centered</div>
+                            </div><div class="product-info1">
+                                <div class="hmil1">Purpose</div>
+                                <div class="hmil">to create . to support . to assist</div>
+                            </div><div class="product-info1">
+                                <div class="hmil1">Problem</div><div class="hmil">
+                                    - individuals lacking basic human needs and rights;<br />
+                                    - emergency humanitarian aid and development;<br />
+                                    - contexts of extreme poverty, devastation caused by war or natural disasters.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- #2 - ISOTOPE PROJECTO -->
+
+            </div>
+            <!-- ISOTOPE PROJECTOS -->
+            <!-- SIDEPANEL BANCO INSPIRACOES -->
+            <div class="container">
+                <h4 class="text-center text-center mb-4" style="font-family: 'Maven Pro', sans-serif;color: #125582;">Existem outras questões, reflexões e informações <br>que poderão ser relevantes na definição de ideias e construção <br>de propostas nesta área temática</h4>
+                <div class="filtr-controls text-center lead text-uppercase mb-3" style="color: #125582;">
+                    <span class="active d-inline-block mx-3 py-1 position-relative" data-filter="all">TODAS</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="1">OBJECTIVO 1 </span><span class="d-inline-block mx-3 py-1 position-relative"
+                                                                                                                                                                                                                    data-filter="2">OBJECTIVO 2</span>
+                </div>
+                <div class="row filtr-container">
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="2,3">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light" style="background-color: #8ec44a !important;">
+                                <h5 class="m-0">#1</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/img_002.jpg">
+                            <div class="card-body">
+                                <p>Texto do projecto blablblablalbalblalbalblalblablalblablalblablalblablalbalba</p>
+                                <p class="card-text" style="bottom:0 !important;">Texto do projecto blablblablalbalblalbalblalblablalblablalblablalblablalbalba</p>
+                            </div>
+                            <div class="d-flex card-footer" style="background-color: #8ec44a !important;"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-light btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light" style="background-color: #125582 !important;">
+                                <h5 class="m-0">#2</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/img_001.jpg">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Peiores principem Constantium cautela sed cetera et nimia graves cetera modi in titulo causarum infudisset plagas apud sed ut siquid. Invadere tabescebat
+                                    egressus ullo flagitii per parans per egressus edictus.<br>
+                                </p>
+                            </div>
+                            <div class="d-flex card-footer" style="background-color: #125582 !important;"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-light btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light" style="background-color: #8ec44a !important;">
+                                <h5 class="m-0">#3</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/img_003.jpg">
+                            <div class="card-body">
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Observantes habitu ignoti conspiratione poterant homines formido cognita malorum conpluribus peragranter divites fingerent poterant peragranter.<br></p>
+                            </div>
+                            <div class="d-flex card-footer" style="background-color: #8ec44a !important;"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-light btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Lorem Ipsum</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/portfolio/cabin.png">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Populique et auctoritate cum sint partes regina canities et circumspectum certamina suffragiorum reverenda et set circumspectum temporis auctoritate certamina
+                                    verecundum quotquot domina per et sint auctoritate sunt omnes ubique redierit.<br>
+                                </p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1,2">
+                        <div class="card border-dark" style="height: 100%;">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Lorem Ipsum</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/portfolio/submarine.png">
+                            <div class="card-body">
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Vocis indigna adlocutus prodesse custodiam ut adlocutus commune vita commune.<br></p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1,3">
+                        <div class="card border-dark" style="height: 100%;">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Lorem Ipsum</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/portfolio/game.png">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Et admiratio incidere magis eo incidere et forte pauci una admiratio eum Pompeio Q tum dissideret querella et forte una hemicyclio ore illum admiratio
+                                    hominum is saepe tum magis tum. Et admiratio incidere magis eo incidere et forte pauci una admiratio eum Pompeio Q tum dissideret querella et forte una hemicyclio ore illum admiratio hominum is saepe tum magis
+                                    tum.<br>
+                                </p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <article class="bg-light text-dark py-4 mt-5" style="background-color: white !important;">
+                <div class="container">
+                    <div class="filtr-controls text-center lead text-uppercase mb-3" style="color: #125582;"><button class="btn" type="button" style="width: 20%;background-color: #125582;color: white;">IR PARA ARQUIVO</button></div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <!-- SIDEPANEL BANCO INSPIRACOES -->
+    <!--SIDEPANEL BOTAO-->
+    <div id="testesidebar" style="z-index: 10; /*background-color:red;*/ position:fixed; left:0; width:40px; height:100vh;">
+
+        <button style="z-index:10; color:white; top:50%; /*height:10vh;*/ position:fixed;" class="btn btn-danger" type="button" data-toggle="canvas" data-target="#bs-canvas-right" aria-expanded="false" aria-controls="bs-canvas-right">&#9776; <span class="textobotaovertical">banco de inspirações</span></button>
+
+
+
+    </div>
+    <!--SIDEPANEL BOTAO-->
+    <!--MENU NAVEGACAO CML-->
+    <!--<nav class="navbar  bg-dark fixed-top"  >
+        <div class="container" ><a class="navbar-brand logocml" style="" href="http://www.cm-lisboa.pt" target="_blank" style="">Camara Municipal de Lisboa</a></div>
+    </nav>-->
+    <!--MENU NAVEGACAO-->
+    <nav class="navbar nav-pills navbar-expand-sm bg-dark navbar-dark fixed-top" style="background-color: #6A6AEF!important;">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html"><img src="assets/img/logoOp-270a5013e3.png" class="logolisboaparticipa"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <!-- Links -->
+            <ul class="navbar-nav ">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
+                        TEMAS
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" style="background-color: rgb(106, 106, 239); color:white;" href="temaagua.html">ÁGUA</a>
+                        <a class="dropdown-item ac" style="background-color: rgb(106, 106, 239); color:white; " href="teamenergia.html">ENERGIA</a>
+                        <a class="dropdown-item" style="background-color: rgb(106, 106, 239); color:white;" href="teamenergia.html">MOBILIDADE</a>
+                        <a class="dropdown-item" style="background-color: rgb(106, 106, 239);color:white; " href="temaambiente.html">AMBIENTE</a>
+                        <a class="dropdown-item" style="background-color: rgb(106, 106, 239);color:white; " href="temareciclagem.html">RECICLAGEM</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sugestoes.html">SUGESTÕES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BOAS PRÁTICAS</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <!--MENU NAVEGACAO-->
+    <!--FULLPAGE CONTROLS START-->
+
+    <div id="fp-nav" class="fp-right" style="margin-top: -33.5px;display: block;">
+        <ul>
+            <li>
+                <a class="active" href="#firstPage"><span class="fp-sr-only"></span><span></span></a>
+                <div class="fp-tooltip fp-right"></div>
+            </li>
+            <li>
+                <a href="#secondPage"><span class="fp-sr-only"></span><span></span></a>
+                <div class="fp-tooltip fp-right"></div>
+            </li>
+            <li>
+                <a href="#secondPage"><span class="fp-sr-only"></span><span></span></a>
+                <div class="fp-tooltip fp-right"></div>
+            </li>
+        </ul>
+    </div>
+    <!--FULLPAGE CONTROLS END-->
+    <!--FULLPAGE START -->
+    <div id="fullpage" class="fullpage-wrapper sidebar-map" style="height: 100%;position: relative;">
+
+        <!--FULLPAGE SECTION#1 » INTRO WIKIOP -->
+        <div class="section fp-section fp-table active fp-completely" id="section1" data-fp-styles="null" data-anchor="temaAgua">
+            <div class="fp-tableCell" style="display:table-cell!important;">
+                <div class="intro col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="cursor: context-menu;">
+                    <h1 class="textointro">Como pode Lisboa evoluir quando pensamos em <b>Energia</b></h1>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!--FULLPAGE SECTION#2 » DADOS INTERESSANTES -->
+        <div class="section fp-section " id="section2" data-fp-styles="null" data-anchor="dadosInteressantes">
+            <!-- <div class="container-fluid px-0">-->
+            <div class="carousel slide" data-ride="carousel" id="carousel-homepage-agua1">
+                <!--INTRO GALERIA -->
+                <div class="carousel-inner" id="carouselintro" role="listbox">
+                    <!--SLIIDE#1 - ÁGUA -->
+                    <div class="carousel-item active" id="slide_1">
+                        <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12 mx-auto d-flex align-items-center justify-content-center min-vh-100">
+                            <div class=" col-xs-10 col-sm-10 col-md-12 col-lg-12 text-center" id="textointroagua">
+
+                                <h1 class="textointroagua1">DADOS INTERESSANTES</h1>
+                                <p class="textopequenoagua1">1,7% blablabla</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="slide_2">
+                        <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12 mx-auto d-flex align-items-center justify-content-center min-vh-100">
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-10 text-center" id="textointroagua">
+
+
+                                <img class="w-100" src="assets/img/ciclo_agua/ciclo_agua0.jpg" style="cursor: pointer;" onclick="window.open(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="carousel-item" id="slide_3">
+                        <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12 mx-auto d-flex align-items-center justify-content-center min-vh-100">
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-10 text-center" id="textointroagua">
+
+
+                                <img class="w-100" src="assets/img/ciclo_agua/ciclo_agua2.jpg" style="cursor: pointer;" onclick="window.open(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" id="slide_4">
+                        <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12 mx-auto d-flex align-items-center justify-content-center min-vh-100">
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-10 text-center" id="textointroagua">
+
+
+                                <img class="w-100" src="assets/img/ciclo_agua/ciclo_agua3.jpg" style="cursor: pointer;" onclick="window.open(this.src)">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" id="slide_5">
+                        <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12 mx-auto d-flex align-items-center justify-content-center min-vh-100">
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-10 text-center" id="textointroagua">
+
+
+                                <img class="w-100" src="assets/img/ciclo_agua/ciclo_agua4.jpg" style="cursor: pointer;" onclick="window.open(this.src)">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="carousel-control-prev" style="color:#125582!important" href="#carousel-homepage-agua1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-homepage-agua1"
+                                                                                                                                                                                                                                                     role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>
+                    </div>
+                    <ol class="carousel-indicators" style="">
+                        <li data-target="#carousel-homepage-agua1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-homepage-agua1" data-slide-to="1"></li>
+                        <li data-target="#carousel-homepage-agua1" data-slide-to="2"></li>
+                        <li data-target="#carousel-homepage-agua1" data-slide-to="3"></li>
+                        <li data-target="#carousel-homepage-agua1" data-slide-to="4"></li>
+
+
+                    </ol>
+                </div>
+                <!-- </div>-->
+
+            </div>
+        </div>
+        <!--FIM SECCAO #2 » DADOS INTERESSANTES -->
+        <!--FULLPAGE SECTION#3 » INTRO AOS OBJECTIVOS -->
+
+        <div class="section fp-section fp-table active fp-completely" id="section3" data-fp-styles="null" data-anchor="introobjectivosAgua">
+            <div class="fp-tableCell" style="display:table-cell!important;">
+                <div class="intro col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="cursor: context-menu;">
+                    <h1 class="text-center textointroobjectivos">
+                        Em baixo encontra questões e informações, em diferentes formatos, sobre aspetos relevantes na construção de propostas que tenham como objectivo:<br><br>
+                        <ul style=" text-align: center; list-style-type: none; text-decoration: underline;">
+                            <li><b>Reduzir o consumo de água;</b></li>
+                            <li><b>Produzir conhecimento, sensibilizar e capacitar</b></li>
+                        </ul><br>
+                        Certamente que existirão ideias importantes, inovadoras e criativas que não se enquadram nestes objetivos ou estrutura. Sugerimos que, ainda assim, leia a informação disponível e recolha o máximo de informação que está à sua disposição.
+                    </h1>
+                    <a href="#section-4">
+                        <img class="justify-content-center align-items-center align-content-center align-content-xl-center center-block" src="assets/img/seta_azul.png" style="text-align: center;">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        
+        <!--FIM SECCAO #3 » INTRO A OBJECTIVOS -->
+        <!--FULLPAGE SECTION#4 » OBJECTIVOS ÁGUA -->
+        <div class="d-inline d-xl-flex section fp-auto-height" id="section4" data-anchor="objectivosAgua">
+
+            <div class="container-fluid justify-content-center justify-content-xl-center align-items-xl-center align-content-xl-center" id="containercollapse" style="">
+
+                <!--HEADING OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                <div class="row" style="border-top: 1px solid #006f9a; border-bottom: 1px solid #006f9a">
+                    <div class="col-12 d-table align-self-center">
+                        <h1 class="text-center" style="color: #006f9a;vertical-align: middle;margin-top: 16px;">
+                            <strong>Reduzir o consumo de água</strong><br>
+                        </h1>
+                        <p class="text-center d-xl-block" style="color: #006f9a;">
+                            otimização dos recursos hídricos (águas pluviais + águas residuais)
+                        </p>
+                    </div>
+                </div>
+
+                <!-- MENU PERGUNTAS OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                <!--coluna imagem OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                <div class="row" style="margin-top: 7vh;">
+                    <div class="col-auto col-xl-4 d-xl-flex justify-content-xl-center align-items-xl-center">
+                        <img src="assets/img/img_obj_1.png" style="width: 50%;" width="200px">
+                    </div>
+
+                    <!--coluna perguntas OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                    <div class="col" style="margin-right:2vw;">
+
+
+                        <!--SUBTEMA #1 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                        <div id="agua_subtema1" style="">
+
+
+                            <!--00.#1OBJECTIVO -->
+                            <div id="subtema1collapse">
+
+
+                                <!--1. ESTRATÉGIA -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    1. Estratégia
+                                </a>
+
+                                <!--1. PAINEL CONTEUDO ESTRATÉGIA -->
+                                <div class="panel" id="painelaccordion" style="">
+
+                                    <!--1.1.Pergunta: A sua ideia está alinhada com as metas e objectivos do municipio?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width: 100%; height: 100%;color: #125582;font-family: 'Maven Pro' , sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 1.1.Pergunta:</b> A sua ideia está alinhada com as metas e objetivos do município?
+
+                                        <br />
+                                    </a>
+
+
+                                    <!--CONTEUDO 1.1.Pergunta: A sua ideia está alinhada com as metas e objectivos do municipio?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta" style="/*border: solid 1px #125582;*/">
+
+                                        <!-- 1.1.Video#1 -->
+                                        <div style="margin-bottom:5vh; text-align:center" id="painelvideo">
+
+
+                                            <video controls id="video1" width="100%" height="100%">
+                                                <source src="assets/videos/video_diagrama_estrategia.webm" type="video/webm">
+                                            </video>
+
+                                        </div>
+
+                                        <!-- <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>-->
+                                        <!-- 1.1.Video#1 -->
+                                        <!-- 1.1.Modal -->
+                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" style="color:#125582 " title="fechar" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="col-lg-12" style="text-align: justify;">
+                                                            Os seguintes objetivos foram definidos através do <a class="source1" href="#video1" style="text-decoration: none; color:#125582; text-align: center; font-style: italic;" type="button" title="CLICLAR PARA VER PDM"><b>Plano Diretor Municipal</b></a><a class="source" href="#video1" style="text-align: center;" type="button" title="Clica para veres o video"><i class="fa fa-info" style="text-align:center;"></i></a>, da <a class="source1" href="#video1" style="text-decoration: none; text-align: center;font-style: italic; color:#125582;" type="button" title="ESTRATÉGIA MUN ALT CLIM"><b>Estratégia Municipal de adaptação às alterações climáticas</b></a> e do documento estratégico da <a class="source1" href="#video1" style="text-decoration: none; color:#125582; text-align: center; font-style: italic;" type="button" title="GREEN CAPITAL yeah"><b>Lisboa Capital Verde Europeia</b></a>:<br />
+                                                            <ul style=" list-style-type: none;">
+                                                                <li>•aumentar os espaços verdes com necessidade reduzida ou nula de rega;</li>
+                                                                <li>•instalar sistemas de monitorização das necessidades hídricas do solo e regulação da rega em função das mesmas, de forma a reduzir o consumo de água;</li>
+                                                                <li>•promover a recolha e armazenamento de <a class="source1" href="#video1" style="text-decoration: none; color:#125582; text-align: center; font-style: italic;" type="button" title="pluvi water"><b>águas pluviais</b></a>;</li>
+                                                                <li>•criar uma rede de distribuição de água reciclada (<a class="source1" href="#video1" style="text-decoration: none; color:#125582; text-align: center; font-style: italic;" type="button" title="treeatted water"><b>água residual tratada</b></a>) e promover o uso da mesma para rega, lavagem de ruas e outros</li>
+                                                            </ul>
+
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 1.1.Modal -->
+                                        <!-- 1.1.BotaoVer+ -->
+                                        <div class="text-center">
+                                            <button style="margin-bottom:5vh;" class="btn btn-md btnvermais " data-toggle="modal" data-target="#myModal">
+                                                Ver +
+                                            </button>
+                                        </div>
+                                        <!-- 1.1.BotaoVer+ -->
+
+
+
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Documentos relevantes:</b><br />
+                                            Aqui encontra para consulta documentos relevantes, com indicação das páginas ou secção com informação importante para responder a esta questão.
+                                        </p>
+                                        <ul style=" list-style-type: none; ">
+                                            <li>PDM Lisboa:<a href="https://www.lisboa.pt/fileadmin/download_center/normativas/regulamentos/urbanismo/Regulamento_PDM.pdf#page=57" target="_blank"> artigos 19º e 20º</a></li>
+                                            <li>Declaração Ambiental Plano Diretor Municipal:<a href="https://www.lisboa.pt/fileadmin/cidade_temas/urbanismo/pdm/Declaracao_ambiental.pdf#page=20" target="_blank"> pág. 14 e 15;</a></li>
+                                            <li>
+                                                <a>
+                                                    EMAAC: pág. <a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=25" target="_blank">19</a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=26" target="_blank"> 20</a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=91" target="_blank">
+                                                        85
+                                                    </a>
+                                                    ,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=102" target="_blank">
+                                                        96
+                                                    </a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=108" target="_blank">
+                                                        102
+                                                    </a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=113" target="_blank">
+                                                        107
+                                                    </a>;
+                                            </li>
+                                            <li>Lisboa Capital Verde: pág. 77, 78;</li>
+                                        </ul>
+                                        <br />
+                                        <p class="textorespostas1">
+                                            <b>Sobre a temática da Água pode ainda consultar:</b>
+                                        </p>
+                                        <ul style=" list-style-type: none; ">
+                                            <li>PDM Lisboa: artigos<a href="https://www.lisboa.pt/fileadmin/download_center/normativas/regulamentos/urbanismo/Regulamento_PDM.pdf#page=50" target="_blank"> 11º</a>,<a href="https://www.lisboa.pt/fileadmin/download_center/normativas/regulamentos/urbanismo/Regulamento_PDM.pdf#page=52" target="_blank">13º</a>,<a href="https://www.lisboa.pt/fileadmin/download_center/normativas/regulamentos/urbanismo/Regulamento_PDM.pdf#page=60" target="_blank">22º</a>,<a href="https://www.lisboa.pt/fileadmin/download_center/normativas/regulamentos/urbanismo/Regulamento_PDM.pdf#page=72" target="_blank">35º</a>;</li>
+                                            <li> <a>Declaração Ambiental Plano Diretor Municipal: pág. <a href="https://www.lisboa.pt/fileadmin/cidade_temas/urbanismo/pdm/Declaracao_ambiental.pdf#page=14" target="_blank">8</a> e <a href="https://www.lisboa.pt/fileadmin/cidade_temas/urbanismo/pdm/Declaracao_ambiental.pdf#page=24" target="_blank">18</a>;</li>
+                                            <li>EMAAC: pág. 11, 12, 18, 45, 46, 47, 50, 51, 58, 59, 60, 61, 62, 63, 64, 69, 70, 71,72, 73, 74, 87, 100, 101, 106, 108, 112, 113, 114, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125;</li>
+                                        </ul>
+
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+
+
+                                    <!--1.2.Pergunta: A sua ideia está alinhada com as metas e objectivos do municipio?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width: 100%; height: 100%;color: #125582;font-family: 'Maven Pro' , sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta12" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 1.2.Pergunta:</b> A sua ideia contribui para promover a redução do consumo de água doméstico, industrial, em espaços verdes ou outros?
+
+                                        <br />
+                                    </a>
+
+                                    <!--CONTEUDO 1.2.Pergunta: A sua ideia está alinhada com as metas e objectivos do municipio?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta12" style="/*border: solid 1px #125582;*/">
+
+                                        <!-- 1.2.Video#2 -->
+                                        <div style="text-align:center" id="painelvideo">
+
+
+                                            <video controls id="video1" width="100%" height="100%">
+                                                <source src="assets/videos/video_diagrama_estrategia.webm11" type="video/webm">
+                                            </video>
+
+                                        </div>
+
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:white;" class="divider-split-full"></div>
+                                        <!-- 1.2.Video#2 -->
+
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Documentos relevantes:</b><br />
+                                            Aqui encontra para consulta documentos relevantes, com indicação das páginas ou secção com informação importante para responder a esta questão.
+                                        </p>
+
+                                        <ul style=" list-style-type none; ">
+                                            <li>Matriz de água 2014:<a href="http://www.lisboaenova.org/images/stories/MatrizAgua2014/MatrizAguaLisboa2014_AltaQualidade.pdf#page=27" target="_blank"> pág. 27, 28, 29, 30, 31, 32</a>;</li>
+                                            <li style="color:red;"> PDM E EMAAC também têm informação relativa aos espaços verdes</li>
+                                        </ul>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>
+                                        <!--1.2.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block;  /*border-top: 1px solid #125582;*/  margin-top: 0.2vh;  /*border-bottom: 1px solid #125582;*/" data-toggle="collapse" data-target="#painelaccordionsubsubpergunta121" aria-expanded="false" role="button" tabindex="1">
+                                            <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                            <b>1.2.1.Pergunta:</b> Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução?
+                                        </a>
+                                        <!--CONTEUDO 1.2.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <div class="panel" id="painelaccordionsubsubpergunta121" style="">
+                                            <p class="textorespostas1" style="color:red; margin-top:5vh;">
+                                                <b> Resposta:</b><br /><br />
+                                                Esperamos informação da CML para darmos exemplos de espaços verdes em que este tipo de soluções foi adotada.<br />
+
+                                            </p>
+
+                                            <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <!--1.3.Pergunta: A sua ideia tem como objectivo a criação e/ou novos usos de sistemas de aproveitamento de águas?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta13" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 1.3.Pergunta:</b> A sua ideia tem como objectivo a criação e/ou novos usos de sistemas de aproveitamento de águas?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 1.3.Pergunta: A sua ideia tem como objectivo a criação e/ou novos usos de sistemas de aproveitamento de águas?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta13" style="/*border: solid 1px #125582;*/">
+
+
+                                        <!-- 1.3.Video#3 -->
+                                        <div style="text-align:center; margin-top:5vh; margin-bottom:5vh;" id="painelvideo1">
+
+
+                                            <video controls id="video2" width="100%" height="100%">
+                                                <source src="assets/videos/video_OP1_1.webm" type="video/webm">
+                                            </video>
+                                            <!-- 1.3.ControlosVideo#3 -->
+
+                                        </div>
+
+                                        <!-- <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>     -->
+                                        <!-- 1.3.Video#3 -->
+                                        <!-- 1.3.Modal -->
+                                        <div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" styl>
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <b>P.1.3: Sistemas de retenção</b>
+                                                        <button type="button" style="color:#125582 " title="fechar" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="col-lg-12" style="text-align: justify;">
+                                                            Existem vários tipos de sistemas de retenção que pode considerar. Abaixo, indicamos alguns:<br />
+                                                            <ul style=" list-style-type none;">
+                                                                <li>sistemas para retenção e captação em <a class="source1" href="#video1" style="text-decoration: none; color:#125582; text-align: center; font-style: italic;" type="button" title="áreas não edificadas">áreas não edificadas</a> (jardins, hortas, parques, canteiros, outros) públicos e/ou privados, como tanques, reservatórios, poços, cisternas, outros;</li>
+                                                                <li>sistemas para retenção e captação de água subterrânea, como furos, minas, outros;</li>
+                                                                <li>sistemas para retenção e captação em edifícios (públicos e/ou privados), como tanques, reservatórios, outros</li>
+
+                                                            </ul>
+
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 1.3.Modal -->
+                                        <!-- 1.3.BotaoVer+ -->
+                                        <div class="text-center">
+                                            <button style="" class="btn btn-md btnvermais " data-toggle="modal" data-target="#myModal13">
+                                                Ver +
+                                            </button>
+                                        </div>
+                                        <!-- 1.3.BotaoVer+ -->
+
+
+                                        <div ms-hide-element="true" style="margin-top:5vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>
+
+                                        <!--1.3.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block;  /*border-top: 1px solid #125582;*/  margin-top: 0.2vh;  /*border-bottom: 1px solid #125582;*/" data-toggle="collapse" data-target="#painelaccordionsubsubpergunta131" aria-expanded="false" role="button" tabindex="1">
+                                            <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                            <b>1.3.1.Pergunta:</b> Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução?
+                                        </a>
+                                        <!--CONTEUDO 1.2.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <div class="panel" id="painelaccordionsubsubpergunta131" style="">
+                                            <p class="textorespostas1" style="margin-top:5vh; color:red;">
+                                                <b> Resposta:</b><br /><br />
+                                                Projetos implementados:
+                                                Sobre as medidas referidas há exemplos de projetos que possam ser dados?
+
+                                                Esperamos informação por parte da CML de exemplos de cisternas, minas, poços, furos ou outros sistemas de captação que estão a ser usados?
+                                                Por exemplo, achamos que o sistema de rega do jardim botânico é feito através de um reservatórios e/ou cisterna.
+                                                Falta info sobre a capacidade de armazenamento
+
+
+                                            </p>
+
+                                            <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+
+
+                                        </div>
+                                    </div>
+                                    <!--CONTEUDO 1.3.Pergunta: A sua ideia tem como objectivo a criação e/ou novos usos de sistemas de aproveitamento de águas?-->
+                                    <!--1.4.Pergunta: A sua ideia tem como objectivo promover a reutilização de águas residuais tratadas?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta14" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 1.4.Pergunta:</b> A sua ideia tem como objectivo promover a reutilização de águas residuais tratadas?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 1.4.Pergunta: A sua ideia tem como objectivo promover a reutilização de águas residuais tratadas?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta14" style="/*border: solid 1px #125582;*/">
+                                        <!-- 1.4.Video#4 -->
+
+                                        <div style="text-align:center; margin-top:5vh; margin-bottom:5vh;" id="painelvideo">
+
+
+                                            <video controls id="video3" width="100%" height="100%">
+                                                <source src="assets/videos/video_OP1_1.webm" type="video/webm">
+                                            </video>
+                                            <!-- 1.4.ControlosVideo#4 -->
+
+
+                                        </div>
+
+                                        <!-- <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>-->
+                                        <!-- 1.4.Video#4 -->
+                                        <!-- 1.4.Modal -->
+                                        <div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" style="color:#125582 " title="fechar" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    </div>
+
+
+                                                    <div class="modal-body">
+                                                        <div class="col-lg-12" style="text-align: justify;">
+                                                            A utilização de <a class="source2" href="#video1" style="text-decoration: none; color:#125582; text-align: center; font-style: italic;" type="button" title="ÁGUA REISUDAL TRATADA"><b>água residual tratada</b></a> em <a class="source2" href="#video1" style="text-decoration: none; color:#125582; text-align: center; font-style: italic;" type="button" title="ETAR"><b>ETAR</b></a>, em substituição da água potável, poderá contribuir significativamente para a redução do consumo de água na cidade.<br />
+
+                                                            São várias as atividades em que este tipo de águas pode ser reutilizado: <b>rega de espaços verdes de produção</b> (hortas, jardins comestíveis, outros) <b>espaços verdes de recreio</b> (jardins, parques, outros), <b>lavagem de ruas e sanitários, proteção contra incêndios, atividades recreativas</b> (lagos, lagoas, aumento do caudal de ribeiras), <b>reutilização na indústria para circuitos de arrefecimento</b>, entre outros.<br />
+
+                                                            Em 2014, foram utilizados em rega de espaços verdes e lavagem de ruas 6,1 milhões de m3 de água potável e 0,23 milhões de m3 de águas residuais tratadas em ETAR. O valor de águas residuais tratadas utilizado representa apenas 0,03% do total de águas residuais tratadas, tendo o restante sido quase na sua totalidade enviado para o rio Tejo, sem ser reutilizado. Para além da lavagem de ruas e rega de espaços verdes, a água residual tratada pode também ser utilizada em atividades de recreio, proteção contra incêndios, reutilização industrial ou outras.
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 1.4.Modal -->
+                                        <!-- 1.4.BotaoVer+ -->
+                                        <div class="text-center" style="margin-bottom: 5vh;">
+                                            <button style="" class="btn btn-md btnvermais " data-toggle="modal" data-target="#myModal14">
+                                                Ver +
+                                            </button>
+                                        </div>
+                                        <div ms-hide-element="true" style="margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>
+                                        <!-- 1.4.BotaoVer+ -->
+                                        <!--1.4.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block;  /*border-top: 1px solid #125582;*/  margin-top: 0.2vh;  /*border-bottom: 1px solid #125582;*/" data-toggle="collapse" data-target="#painelaccordionsubsubpergunta141" aria-expanded="false" role="button" tabindex="1">
+                                            <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                            <b>1.4.1.Pergunta:</b> Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução?
+                                        </a>
+                                        <!--CONTEUDO 1.4.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <div class="panel" id="painelaccordionsubsubpergunta141" style="">
+                                            <p class="textorespostas1" style="color: red; margin-top:5vh;">
+                                                <b> Resposta:</b><br /><br />
+                                                Esperamos informação por parte da CML sobre um projeto de reutilização de água residual no parque das nações. É possível partilhar dados sobre o projeto, m3 de água utilizada mais atualizados que os de 2014 e informação sobre se o projeto já foi alargado a outras áreas da cidade e/ou previsão de extensão?
+
+                                            </p>
+                                            <p class="textorespostas1" style="margin-bottom:2vh;">
+                                                <b> Documentos relevantes:</b><br />
+                                                Aqui encontra para consulta documentos relevantes, com indicação das páginas ou secção com informação importante para responder a esta questão.
+                                            </p>
+                                            <ul style="/*list-style-type: none;*/">
+                                                <li>Matriz de Água de Lisboa 2014: <a href="http://www.lisboaenova.org/images/stories/MatrizAgua2014/MatrizAguaLisboa_nediaqualidade.pdf#page=33" target="_blank">pág.33 e 34</a></li>
+
+                                            </ul>
+
+                                            <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!--SUBTEMA #2 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+
+
+
+                        <div id="agua_subtema2">
+                            <div id="subtema2collapse">
+
+                                <!--2. OBSTACULOS E CUSTOS -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion2" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema2collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    2. Obstáculos e custos
+                                </a>
+
+                                <!--2. PAINEL CONTEUDO OBSTACULOS E CUSTOS -->
+                                <div class="panel" id="painelaccordion2" style="">
+
+                                    <!--2.1.Pergunta: Que obstáculos ou constrangimentos poderão fazer com que a sua ideia não se concretize?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta21" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema2collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 2.1.Pergunta:</b> Que obstáculos ou constrangimentos poderão fazer com que a sua ideia não se concretize?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 2.1.Pergunta: Que obstáculos ou constrangimentos poderão fazer com que a sua ideia não se concretize?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta21" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Eles poderão ser físicos, jurídicos, administrativos ou outros.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+                                    <!--2.2.Pergunta: Com que exatidão consegue saber quanto custa a implementação da sua ideia?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta22" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema2collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 2.2.Pergunta:</b> Com que exatidão consegue saber quanto custa a implementação da sua ideia?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 2.2.Pergunta: Com que exatidão consegue saber quanto custa a implementação da sua ideia?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta22" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Aqui pode encontrar informação sobre custos de algumas operações implementadas pelo município.
+                                        </p>
+                                        <a style="color:red;">  Esperamos informação por parte da CML sobre um projeto de reutilização de água residual no parque das nações. É possível partilhar dados sobre o projeto, m3 de água utilizada mais atualizados que os de 2014 e informação sobre se o projeto já foi alargado a outras áreas da cidade e/ou previsão de extensão?</a>
+
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!--SUBTEMA #3 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                        <div id="agua_subtema3">
+                            <div id="subtema3collapse">
+                                <!--3. IMPACTO -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion3" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema3collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    3. Impacto
+                                </a>
+
+                                <!--3. PAINEL CONTEUDO IMPACTO -->
+                                <div class="panel" id="painelaccordion3" style="">
+
+                                    <!--3.1.Pergunta: É possível definir um grupo de cidadãos concreto que irá beneficiar mais da implementação da sua ideia?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta31" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema3collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 3.1.Pergunta:</b> É possível definir um grupo de cidadãos concreto que irá beneficiar mais da implementação da sua ideia?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 3.1.Pergunta: É possível definir um grupo de cidadãos concreto que irá beneficiar mais da implementação da sua ideia?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta31" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Descreva, com o detalhe possível, quem vai ser mais beneficiado pela implementação da sua ideia. Podem, por exemplo, ser todas as pessoas de uma zona específica de uma freguesia, pessoas de uma determinada faixa etária, determinados tipos de negócio, etc.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--3.2.Pergunta: Que benefícios para as pessoas descritas acima, e para a cidade, traz a sua ideia?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta32" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema3collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 3.2.Pergunta:</b> Que benefícios para as pessoas descritas acima, e para a cidade, traz a sua ideia?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 3.2.Pergunta: Que benefícios para as pessoas descritas acima, e para a cidade, traz a sua ideia?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta32" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Descreva, com o detalhe possível, os impactos positivos da sua ideia na população beneficiária e na cidade.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+
+                        <!--SUBTEMA #4 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                        <div id="agua_subtema4">
+                            <div id="subtema4collapse">
+                                <!--4. VIABILIDADE -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion4" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    4. Viabilidade
+                                </a>
+
+                                <!--4. PAINEL CONTEUDO VIABILIDADE -->
+                                <div class="panel" id="painelaccordion4" style="">
+                                    <!--4.1.Pergunta: Sabe de alguma iniciativa ou projeto, previsto ou em implementação, que possa coincidir ou colidir com a sua ideia?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta41" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.1.Pergunta:</b> Sabe de alguma iniciativa ou projeto, previsto ou em implementação, que possa coincidir ou colidir com a sua ideia?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.1.Pergunta: Sabe de alguma iniciativa ou projeto, previsto ou em implementação, que possa coincidir ou colidir com a sua ideia?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta41" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--4.2.Pergunta: Conhece alguma iniciativa ou projeto semelhante ou complementar à sua ideia, a ser implementado ou já terminado?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta42" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.2.Pergunta:</b> Conhece alguma iniciativa ou projeto semelhante ou complementar à sua ideia, a ser implementado ou já terminado?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.2.Pergunta: Conhece alguma iniciativa ou projeto semelhante ou complementar à sua ideia, a ser implementado ou já terminado?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta42" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            A comparação com outras iniciativas de sucesso pode ser uma boa forma de demonstrar a pertinência e viabilidade da sua ideia.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--4.3.Pergunta: É possível implementar a sua ideia com o orçamento disponível?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta43" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.3.Pergunta:</b> É possível implementar a sua ideia com o orçamento disponível?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.3.Pergunta: É possível implementar a sua ideia com o orçamento disponível?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta43" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            (O Projeto Estruturante tem um valor de 1.400.000€; O Projeto Local tem um valor de 150.000€.)
+                                            É importante avaliar os custos de manutenção que a implementação da sua proposta possa necessitar, uma vez que os mesmos podem ser motivo de exclusão - <a href="https://op.lisboaparticipa.pt/documentos" target="_blank">
+                                                saiba mais no ciclo e regras do O.P. 2020.
+                                            </a></br>
+                                            Da mesma forma, é importante que, caso seja um projeto a médio/longo prazo, tenha em conta os valores necessários para garantir a sustentabilidade da proposta - lembre-se que pode prever custos futuros para recursos humanos, manutenção e outros que entenda como necessários.
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+                                    <!--4.4.Pergunta: A sua proposta é tecnicamente viável e cumpre os critérios definidos no ciclo e regras do O.P?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta44" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.4.Pergunta:</b> A sua proposta é tecnicamente viável e cumpre os critérios definidos no ciclo e regras do O.P?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.4.Pergunta: A sua proposta é tecnicamente viável e cumpre os critérios definidos no ciclo e regras do O.P?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta44" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--4.5.Pergunta: De que forma contribui a sua ideia (direta e/ou indiretamente) para os objetivos da Lisboa Capital Verde 2020?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta45" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.5.Pergunta:</b> De que forma contribui a sua ideia (direta e/ou indiretamente) para os objetivos da Lisboa Capital Verde 2020?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.5.Pergunta: De que forma contribui a sua ideia (direta e/ou indiretamente) para os objetivos da Lisboa Capital Verde 2020?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta45" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!--SUBTEMA #4 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+
+                    </div>
+                </div>
+
+
+
+               
+
+
+                <!--HEADING OBJECTIVO #2 » OBJECTIVOS ÁGUA -->
+                <div class="row" style="border-top: 1px solid #006f9a; border-bottom: 1px solid #006f9a; margin-top:7vh;">
+                    <div class="col-12 d-table align-self-center">
+                        <h1 class="text-center" style="color: #006f9a;vertical-align: middle;margin-top: 16px;">
+                            <strong>Produzir conhecimento, sensibilizar e capacitar</strong><br>
+                        </h1>
+
+                    </div>
+                </div>
+
+                <!-- MENU PERGUNTAS OBJECTIVO #2 » OBJECTIVOS ÁGUA -->
+                <!--coluna imagem OBJECTIVO #2 » OBJECTIVOS ÁGUA -->
+                <div class="row" style="margin-top: 7vh;">
+                    <div class="col-auto col-xl-4 d-xl-flex justify-content-xl-center align-items-xl-center">
+                        <img src="assets/img/img_obj_2.png" style="width: 50%;" width="200px">
+                    </div>
+
+                    <!--coluna perguntas OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                    <div class="col" style="margin-right:2vw;">
+
+
+                        <!--SUBTEMA #1 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                        <div id="agua_subtema1" style="">
+
+
+                            <!--00.#1OBJECTIVO -->
+                            <div id="subtema1collapse">
+
+
+                                <!--1. ESTRATÉGIA -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    1. Estratégia
+                                </a>
+
+                                <!--1. PAINEL CONTEUDO ESTRATÉGIA -->
+                                <div class="panel" id="painelaccordion" style="">
+
+                                    <!--1.1.Pergunta: A sua ideia está alinhada com as metas e objectivos do municipio?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 1.1.Pergunta:</b> A sua ideia está alinhada com as metas e objetivos do município?
+
+                                        <br />
+                                    </a>
+
+
+                                    <!--CONTEUDO 1.1.Pergunta: A sua ideia está alinhada com as metas e objectivos do municipio?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta" style="/*border: solid 1px #125582;*/">
+
+                                        <!-- 1.1.Video#2 -->
+                                        <div style="margin-bottom:5vh; text-align:center" id="painelvideo">
+
+
+                                            <video controls id="video1" width="100%" height="100%">
+                                                <source src="assets/videos/video_diagrama_estrategia.webm33" type="video/webm">
+                                            </video>
+
+                                        </div>
+
+                                        <!-- <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>-->
+                                        <!-- 1.1.Video#2 -->
+                                        <!-- 1.1.Modal -->
+                                        <div class="modal fade" id="myModal211" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" style="color:#125582 " title="fechar" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="col-lg-12" style="text-align: justify;">
+                                                            A CML na EMAAC (Estratégia municipal de adaptação às alterações climáticas), define como relevante:<br />
+                                                            <ul style=" list-style-type: none;">
+                                                                <li>promover ações de divulgação e sensibilização;</li>
+                                                                <li>aumentar o conhecimento sobre os impactos causados por eventos climáticos;</li>
+                                                                <li>promover a interação e o intercâmbio técnico entre os municípios da Área Metropolitana de Lisboa;</li>
+                                                                <li>fornecer apoio técnico à população;</li>
+                                                                <li>acolher e potenciar iniciativas de participação cidadã, tais como campanhas, eventos, disseminação de informação através de redes sociais, e outros.</li>
+                                                            </ul>
+
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 1.1.Modal -->
+                                        <!-- 1.1.BotaoVer+ -->
+                                        <div class="text-center">
+                                            <button style="margin-bottom:5vh;" class="btn btn-md btnvermais " data-toggle="modal" data-target="#myModal211">
+                                                Ver +
+                                            </button>
+                                        </div>
+                                        <!-- 1.1.BotaoVer+ -->
+
+
+
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Documentos relevantes:</b><br />
+                                            Aqui encontra para consulta documentos relevantes, com indicação das páginas ou secção com informação importante para responder a esta questão.
+                                        </p>
+                                        <ul style=" list-style-type none; ">
+
+                                            <li>
+                                                EMAAC: pág. <a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page90" target="_blank">84</a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=93" target="_blank"> 87</a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=94" target="_blank">
+                                                    88
+
+                                                    ,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=95" target="_blank">
+                                                        89
+                                                    </a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=96" target="_blank">
+                                                        90
+                                                    </a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=97" target="_blank">
+                                                        91
+                                                    </a>,<a href="http://www.cm-lisboa.pt/fileadmin/VIVER/Urbanismo/premios/valmor/valmor20132016/Estrat%C3%A9gia_Municipal_de_Adapta%C3%A7%C3%A3o_%C3%A0s_Altera%C3%A7%C3%B5es_Clim%C3%A1ticas_2017.pdf#page=122" target="_blank">
+                                                        116-125
+                                                    </a>;
+                                            </li>
+
+                                        </ul>
+
+
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+
+
+                                    <!--1.2.Pergunta: Que tipo de ação pretende implementar através da sua ideia?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width: 100%; height: 100%;color: #125582;font-family: 'Maven Pro' , sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta12" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 1.2.Pergunta:</b> Que tipo de ação pretende implementar através da sua ideia?
+
+                                        <br />
+                                    </a>
+
+                                    <!--CONTEUDO 1.2.Pergunta: Que tipo de ação pretende implementar através da sua ideia?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta12" style="/*border: solid 1px #125582;*/">
+
+                                        <!-- 1.2.Video#2 -->
+                                        <div style="text-align:center" id="painelvideo">
+
+
+                                            <video controls id="video1" width="100%" height="100%">
+                                                <source src="assets/videos/video_diagrama_estrategia.webm11" type="video/webm">
+                                            </video>
+
+                                        </div>
+
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:white;" class="divider-split-full"></div>
+                                        <!-- 1.2.Video#2 -->
+                                        <!-- 1.2.Modal2 -->
+                                        <div class="modal fade" id="myModal212" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" style="color:#125582 " title="fechar" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="col-lg-12" style="text-align: justify;">
+                                                            Existem inúmeras categorias em que podemos pensar como forma de promover conhecimento, sensibilizar e capacitar os munícipes e as instituições. Abaixo, listamos algumas possibilidades:<br />
+                                                            <ul style=" list-style-type none;">
+                                                                <li>Investigação e produção de conhecimento;</li>
+                                                                <li>Partilha e intercâmbio de conhecimento (entre redes, instituições, parceiros, outros);</li>
+                                                                <li>Comunicação e divulgação de informação;</li>
+                                                                <li>Recolha, processamento e monitorização de dados;</li>
+                                                                <li>Sensibilização;</li>
+                                                                <li>Capacitação colectiva;</li>
+                                                                <li>Outros.</li>
+                                                            </ul>
+
+                                                            (Referimos que esta lista não é exaustiva e que muitas outras soluções poderão ser elegíveis, ao abrigo do ciclo de regras do O.P.)
+
+                                                            É importante também pensar no formato que a sua ideia vai assumir para ser implementada. Abaixo deixamos alguns exemplos possíveis:
+                                                            <ul style=" list-style-type none;">
+                                                                <li>Bolsas de investigação;</li>
+                                                                <li>Workshops e ações de formação;</li>
+                                                                <li>Conferências, seminários, hackathons e simpósios;</li>
+                                                                <li>Publicações;</li>
+                                                                <li>Festivais e/ou eventos diversos;</li>
+                                                                <li>Plataformas online e aplicações digitais (app);</li>
+                                                                <li>Podcasts;</li>
+                                                                <li>Séries / documentários / filmes;</li>
+                                                                <li>Campanhas de sensibilização;</li>
+                                                                <li>Jogos e material didático;</li>
+                                                                <li>Roteiros e visitas guiadas;</li>
+                                                                <li> Outros.</li>
+
+
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 1.2.Modal2 -->
+                                        <!-- 1.2.BotaoVer+ -->
+                                        <div class="text-center">
+                                            <button style="margin-bottom:5vh;" class="btn btn-md btnvermais " data-toggle="modal" data-target="#myModal212">
+                                                Ver +
+                                            </button>
+                                        </div>
+                                        <!-- 1.2.BotaoVer+ -->
+
+
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>
+                                        <!--1.2.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block;  /*border-top: 1px solid #125582;*/  margin-top: 0.2vh;  /*border-bottom: 1px solid #125582;*/" data-toggle="collapse" data-target="#painelaccordionsubsubpergunta121" aria-expanded="false" role="button" tabindex="1">
+                                            <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                            <b>1.2.1.Pergunta:</b> Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução?
+                                        </a>
+                                        <!--CONTEUDO 1.2.1.Pergunta: Conhece soluções semelhantes à sua ideia na cidade, ou, em particular, na área em que pretende intervir? Que benifícios trouxeram? A sua proposta pretende replicar e/ou melhorar essa solução-->
+                                        <div class="panel" id="painelaccordionsubsubpergunta121" style="">
+                                            <p class="textorespostas1" style="color:red; margin-top:5vh;">
+                                                <b> Resposta:</b><br /><br />
+                                                Publicações:<br />
+                                                Publicações Lisboa E-NOVA<br />
+
+                                                Conversas e conferencias:<br />
+                                                Eventos Lisboa E-NOVA<br />
+                                                Observatórios LISBOA<br />
+
+                                                Filmes<br />
+                                                Aquametragem<br />
+
+                                                Aguardamos mais informações por parte dos serviços da CML sobre os projetos em curso, nomeadamente nas escolas.
+                                                <br />
+
+                                            </p>
+
+                                            <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!--SUBTEMA #2 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+
+
+
+                        <div id="agua_subtema2">
+                            <div id="subtema2collapse">
+
+                                <!--2. OBSTACULOS E CUSTOS -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion2" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema2collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    2. Obstáculos e custos
+                                </a>
+
+                                <!--2. PAINEL CONTEUDO OBSTACULOS E CUSTOS -->
+                                <div class="panel" id="painelaccordion2" style="">
+
+                                    <!--2.1.Pergunta: Que obstáculos ou constrangimentos poderão fazer com que a sua ideia não se concretize?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta21" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema2collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 2.1.Pergunta:</b> Que obstáculos ou constrangimentos poderão fazer com que a sua ideia não se concretize?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 2.1.Pergunta: Que obstáculos ou constrangimentos poderão fazer com que a sua ideia não se concretize?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta21" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Eles poderão ser físicos, jurídicos, administrativos ou outros.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+                                    <!--2.2.Pergunta: Com que exatidão consegue saber quanto custa a implementação da sua ideia?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta22" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema2collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 2.2.Pergunta:</b> Com que exatidão consegue saber quanto custa a implementação da sua ideia?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 2.2.Pergunta: Com que exatidão consegue saber quanto custa a implementação da sua ideia?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta22" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Aqui pode encontrar informação sobre custos de algumas operações implementadas pelo município.
+                                        </p>
+                                        <a style="color:red;">  Esperamos informação por parte da CML sobre um projeto de reutilização de água residual no parque das nações. É possível partilhar dados sobre o projeto, m3 de água utilizada mais atualizados que os de 2014 e informação sobre se o projeto já foi alargado a outras áreas da cidade e/ou previsão de extensão?</a>
+
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!--SUBTEMA #3 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                        <div id="agua_subtema3">
+                            <div id="subtema3collapse">
+                                <!--3. IMPACTO -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion3" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema3collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    3. Impacto
+                                </a>
+
+                                <!--3. PAINEL CONTEUDO IMPACTO -->
+                                <div class="panel" id="painelaccordion3" style="">
+
+                                    <!--3.1.Pergunta: É possível identificar com clareza os beneficiários da sua solução? Quantas pessoas beneficiam da proposta direta e indiretamente?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta31" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema3collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 3.1.Pergunta:</b> É possível identificar com clareza os beneficiários da sua solução? Quantas pessoas beneficiam da proposta direta e indiretamente?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 3.1.Pergunta: É possível identificar com clareza os beneficiários da sua solução? Quantas pessoas beneficiam da proposta direta e indiretamente?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta31" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Descreva, com o detalhe possível, quem vai ser mais beneficiado pela implementação da sua ideia. Podem, por exemplo, ser todas as pessoas de uma zona específica de uma freguesia, pessoas de uma determinada faixa etária, determinados tipos de negócio, etc.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--3.2.Pergunta: É possível identificar com clareza os efeitos / impacto da sua proposta na área de intervenção, na cidade e nos seus beneficiários?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta32" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema3collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 3.2.Pergunta:</b> É possível identificar com clareza os efeitos / impacto da sua proposta na área de intervenção, na cidade e nos seus beneficiários?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 3.2.Pergunta: É possível identificar com clareza os efeitos / impacto da sua proposta na área de intervenção, na cidade e nos seus beneficiários?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta32" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            Descreva, com o detalhe possível, os impactos positivos da sua ideia na população beneficiária e na cidade.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+
+                        <!--SUBTEMA #4 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                        <div id="agua_subtema4">
+                            <div id="subtema4collapse">
+                                <!--4. VIABILIDADE -->
+                                <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion4" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+                                    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+
+                                    4. Exequibilidade da proposta no âmbito do Orçamento Participativo 2020
+                                </a>
+
+                                <!--4. PAINEL CONTEUDO VIABILIDADE -->
+                                <div class="panel" id="painelaccordion4" style="">
+                                    <!--4.1.Pergunta: Sabe de alguma iniciativa ou projeto, previsto ou em implementação, que possa coincidir ou colidir com a sua ideia?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta41" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.1.Pergunta:</b> Sabe de alguma iniciativa ou projeto, previsto ou em implementação, que possa coincidir ou colidir com a sua ideia?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.1.Pergunta: Sabe de alguma iniciativa ou projeto, previsto ou em implementação, que possa coincidir ou colidir com a sua ideia?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta41" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--4.2.Pergunta: Conhece alguma iniciativa ou projeto semelhante ou complementar à sua ideia, a ser implementado ou já terminado? Não nos referimos só à cidade de Lisboa, mas a experiências que tenham acontecido em qualquer lugar.-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta42" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.2.Pergunta:</b> Conhece alguma iniciativa ou projeto semelhante ou complementar à sua ideia, a ser implementado ou já terminado? Não nos referimos só à cidade de Lisboa, mas a experiências que tenham acontecido em qualquer lugar.
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.2.Pergunta: Conhece alguma iniciativa ou projeto semelhante ou complementar à sua ideia, a ser implementado ou já terminado?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta42" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            A comparação com outras iniciativas de sucesso pode ser uma boa forma de demonstrar a pertinência e viabilidade da sua ideia.
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--4.3.Pergunta: É possível implementar a sua ideia com o orçamento disponível?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta43" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.3.Pergunta:</b> É possível implementar a sua ideia com o orçamento disponível?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.3.Pergunta: É possível implementar a sua ideia com o orçamento disponível?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta43" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+                                            (O Projeto Estruturante tem um valor de 1.400.000€; O Projeto Local tem um valor de 150.000€.)
+                                            É importante avaliar os custos de manutenção que a implementação da sua proposta possa necessitar, uma vez que os mesmos podem ser motivo de exclusão - <a href="https://op.lisboaparticipa.pt/documentos" target="_blank">
+                                                saiba mais no ciclo e regras do O.P. 2020.
+                                            </a></br>
+                                            Da mesma forma, é importante que, caso seja um projeto a médio/longo prazo, tenha em conta os valores necessários para garantir a sustentabilidade da proposta - lembre-se que pode prever custos futuros para recursos humanos, manutenção e outros que entenda como necessários.
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+
+                                    <!--4.4.Pergunta: A sua proposta é tecnicamente viável e cumpre os critérios definidos no ciclo e regras do O.P?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta44" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.4.Pergunta:</b> A sua proposta é tecnicamente viável e cumpre os critérios definidos no ciclo e regras do O.P?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.4.Pergunta: A sua proposta é tecnicamente viável e cumpre os critérios definidos no ciclo e regras do O.P?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta44" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                    <!--4.5.Pergunta: De que forma contribui a sua ideia (direta e/ou indiretamente) para os objetivos da Lisboa Capital Verde 2020?-->
+                                    <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width 100%; height 100%;color #125582;font-family 'Maven Pro' , sans-serif; font-style italic; text-align justify !important; text-justify inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta45" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema4collapse">
+
+
+                                        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                                        <b> 4.5.Pergunta:</b> De que forma contribui a sua ideia (direta e/ou indiretamente) para os objetivos da Lisboa Capital Verde 2020?
+
+                                        <br />
+                                    </a>
+                                    <!--CONTEUDO 4.5.Pergunta: De que forma contribui a sua ideia (direta e/ou indiretamente) para os objetivos da Lisboa Capital Verde 2020?-->
+                                    <div class="panel-collapse collapse" id="painelaccordionsubpergunta45" style="/*border: solid 1px #125582;*/">
+                                        <p class="textorespostas1" style="margin-bottom:2vh;">
+                                            <b> Resposta:</b><br />
+
+                                        </p>
+                                        <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!--SUBTEMA #4 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--FULLPAGE SECTION#4 » OBJECTIVOS ÁGUA END -->
+    <!--SECCAO #5 » SUGESTOES -->
+
+        <div class="section fp-section fp-table active fp-completely" id="section5" data-fp-styles="null" data-anchor="formularioSugestoes">
+            <div class="fp-tableCell" style="display:table-cell!important;">
+                <div class="intro col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="cursor: context-menu;">
+                    <h4 class="text-center text-center mb-4" style="font-family: 'Maven Pro', sans-serif;color: #125582;margin-top: 7vh;margin-bottom: 7vh!important;">
+                        Este é um site em constante crescimento.<br>
+                        Existem muitas outras questões, reflexões e informações sobre o tema que poderão ser importantes e tidas em conta para fazer Lisboa Evoluir.<br>
+                        Caso tenha interesse, partilhe as mesmas connosco
+                        <a style=" text-decoration: none;" href="sugestoes.html"><u>aqui</u></a>.
+                    </h4>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    <!--SECCAO #5 » SUGESTOES END-->
+    </div>
+    <!--FULLPAGE END -->
+    <!-- Footer -->
+    <footer class="page-footer font-small" style="color:white; background-color:#125582;">
+
+        <div class="container col-lg-12" style="display: table">
+            <div class="row py-1">
+                <div class="col-lg text-center" style="font-family: 'Maven Pro', sans-serif;">
+
+                    <img class="img-fluid d-block rounded-0" style="width:20%;" align="middle" src="assets/img/Logotipo-CML_fonteDIN_horizontal_1-cor_white2.png">
+                </div>
+                <div class="col-lg text-center ">
+                    © 2020 Copyright:
+                    <a style="color: white; text-decoration: none;" href="https://www.localsapproach.org/"><img class="img-fluid rounded-0" style="width:12%;" src="assets/img/identidade_oficial-01.png"></a>
+                    <a style="color: white; text-decoration: none;" href="https://www.resdochao.org/"><img class="img-fluid  rounded-0" style="width:15%;" src="assets/img/about-logo.png"></a>
+
+                </div>
+                <div class="col-lg text-center" style="font-size: 0.8rem;">
+                    <!--     framework: JQuery + Bootstrap + Fullpage JS + Isotope JS + Chosen JS-->
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <!-- <div class="footer-copyright text-center py-1">© 2020 Copyright:
+           <a style="color: white; text-decoration: none;" href="https://www.localsapproach.org/"> Localsapproach</a> + <a style="color: white; text-decoration: none;" href="https://www.resdochao.org/">Rés-do-Chão</a>
+         </div>
+         <!-- Copyright -->
+
+
+
+
+    </footer>
+    <!-- Footer -->
+    <!-- JAVASCRIPTS -->
+    <!-- SIDEPANEL LOADER -->
+    <script src="assets/js/sidepanelloader.js"></script>
+    <!-- SIDEPANEL LOADER -->
+    <!-- JQUERY UI -->
+    <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <!-- JQUERY UI -->
+    <!-- JQUERY FULLPAGE JS 2.9.4 -->
+    <script src="assets/js/jquery.fullpage.js"></script>
+    <!-- JQUERY FULLPAGE JS 2.9.4 -->
+    <!-- JQUERY EASING -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!-- JQUERY EASING -->
+    <!-- PRISM -->
+    <script src="assets/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+    <!-- PRISM -->
+    <!-- ISOTOPE 3.0.6 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- ISOTOPE 3.0.6 -->
+    <!-- CHOSEN 1.1.0 -->
+    <script src="assets/chosen/chosen.jquery.js"></script>
+    <!-- CHOSEN 1.1.0 -->
+    <!-- ISOTOPE LOADER -->
+    <script src="assets/js/isotopeloader.js"></script>
+    <!-- ISOTOPE LOADER -->
+    <!-- FONTS LOADER -->
+    <script src="assets/fonts/all.js"></script>
+    <!-- FONTS LOADER -->
+    <!-- SCROLLOVERFLOW iScroll.js 0.1.3 -->
+    <script src="assets/js/scrolloverflow.min.js"></script>
+    <!-- SCROLLOVERFLOW iScroll.js 0.1.3 -->
+    <!-- FULLPAGE 3.0.8-->
+    <script src="assets/js/fullpage.js"></script>
+    <!-- FULLPAGE 3.0.8-->
+    <!-- CHOSEN LOADER -->
+    <script src="assets/js/chosenloader.js"></script>
+    <!-- CHOSEN LOADER -->
+    <!-- VIDEO CONTROLS LOADER -->
+    <script src="assets/js/videocontrolos.js"></script>
+    <!-- VIDEO CONTROLS LOADER -->
+    <!-- VER + BOTOES LOADER -->
+    <script src="assets/js/botoesvermais.js"></script>
+    <!-- VER + BOTOES LOADER -->
+    <!-- FULLPAGE LOADER -->
+    <script src="assets/js/fullpageloader.js"></script>
+    <!-- FULLPAGE LOADER -->
+    <!-- ACCORDION LOADER -->
+    <script src="assets/js/accordionloader.js"></script>
+    <!-- ACCORDION LOADER -->
+    <!-- CAROUSEL LOADER -->
+    <script src="assets/js/carousel_loader.js"></script>
+    <!-- CAROUSEL LOADER -->
+    <!-- CARDS FILTER LOADER -->
+    <script src="assets/js/-Filterable-Cards-.js"></script>
+    <!-- CARDS FILTER LOADER -->
+    <!-- FULLPAGE 3.0.8 EXTENSIONS 0.1.9 -->
+    <script src="assets/js/fullpage.extensions.min.js"></script>
+    <!-- FULLPAGE 3.0.8 EXTENSIONS 0.1.9 -->
+    <!-- JAVASCRIPTS -->
+
+</body>
+
+</html>

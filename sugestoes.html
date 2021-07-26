@@ -1,0 +1,513 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Wiki-OP Lisboa</title>
+    
+    <!--BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!--BOOTSTRAP CSS -->
+
+
+    <!--FONTS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&amp;subset=latin-ext">
+    <!--FONTS -->
+
+
+    <!--CHOSEN FILTER -->
+    <link rel="stylesheet" href="assets/chosen/chosen.css">
+    <!--CHOSEN FILTER -->
+
+
+     <!--FONT AWESOME -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/all.css">
+    <!--FONT AWESOME -->
+
+
+    <!--JQUERY FULLPAGE CSS -->
+    <link rel="stylesheet" href="assets/css/jquery.fullpage.css">
+    <!--JQUERY FULLPAGE CSS -->
+
+
+    <!--ESTILOS PERSONALIZADOS CSS -->
+    <link rel="stylesheet" href="assets/css/estiloswikiop.css">    
+    <link rel="stylesheet" href="assets/css/estilosaccordionsidepanel.css">
+    <link rel="stylesheet" href="assets/css/fullpage_wikiop.css">
+    <link rel="stylesheet" href="assets/css/isotopeloader.css">
+       <link rel="stylesheet" href="assets/css/-Filterable-Cards-.css">
+    <!--ESTILOS PERSONALIZADOS CSS -->
+
+ <!-- JQUERY 3.4.1 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- JQUERY 3.4.1 -->
+
+<!-- BOOTSTRAP 4.3.1 -->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- BOOTSTRAP 4.3.1 -->
+
+<script>
+
+    $(document).ready(function(){
+
+        $("#myModalpopup").modal('show');
+
+    });
+
+</script>
+
+
+</head>
+
+<body style="font-family: 'Maven Pro', sans-serif;">
+
+
+
+    <!--SIDEPANEL OVERLAY-->
+    <div class="bs-canvas-overlay bg-dark position-fixed w-100 h-100"></div>
+
+    <!--SIDEPANEL-->
+    <!-- SIDEPANEL CONTENT -->
+    <div id="bs-canvas-right" class="bs-canvas bs-canvas-right position-fixed bg-light h-100">
+        <header class="bs-canvas-header p-3 bg-danger overflow-auto ">
+            <button type="button" class="bs-canvas-close float-left close" aria-label="Close" aria-expanded="false"><span aria-hidden="true" class="text-light">&times;</span></button>
+            <h4 class="text-light text-center align-self-center mb-0 ">INSPIRA-TE</h4>
+        </header>
+        <div class="bs-canvas-content px-3 py-5">
+
+            <!-- CHOSEN FILTER -->
+            <div id="filterGroup">
+                Filtre por:<br />
+                <select class="chosen-select filter option-set" data-placeholder="Escolha um tema" data-filter-group="color" tabindex="4" multiple style="width:50%;">
+
+                    <option data-filter-value="*">All</option>
+                    <option data-filter-value=".temaambiente">Ambiente</option>
+                    <option data-filter-value=".temaagua">Água</option>
+                    <option data-filter-value=".temaenergia">Energia</option>
+                    <option data-filter-value=".temamobilidade">Mobilidade</option>
+                    <option data-filter-value=".temareciclagem">Reciclagem</option>
+
+                </select>
+
+                <select class="chosen-select filter option-set " data-placeholder="Escolha um objectivo" data-filter-group="size" tabindex="4" multiple style="width:50%;">
+
+                    <option data-filter-value="*">All</option>
+                    <option data-filter-value=".propositomeet">to meet</option>
+                    <option data-filter-value=".propositocreate">to create</option>
+                    <option data-filter-value=".propositocontribute">to contribute</option>
+                    <option data-filter-value=".propositoimprove">to improve</option>
+                    <option data-filter-value=".propositosupport">to support change</option>
+                    <option data-filter-value=".propositotackle">to tackle</option>
+                    <option data-filter-value=".propositodrive">to drive</option>
+                    <option data-filter-value="propositoenable">to enable</option>
+                    <option data-filter-value=".propositoaccelarate">to accelarate</option>
+                    <option data-filter-value=".propositodeliver">to deliver</option>
+
+                    <option data-filter-value=".propositoassist">to assist</option>
+                    <option data-filter-value=".propositodevelop">to develop</option>
+                    <option data-filter-value=".propositocatalyse">to catalyse</option>
+                    <option data-filter-value=".propositocatalysechange">to catalyse change</option>
+                    <option data-filter-value=".propositoimpact">to impact</option>
+                    <option data-filter-value=".propositoattest">to attest</option>
+                    <option data-filter-value=".propositorecord">to record</option>
+                    <option data-filter-value=".propositodemonstrate">to demonstrate</option>
+                    <option data-filter-value=".propositoinnovate">to innovate</option>
+                    <option data-filter-value=".propositoconsolidate">to consolidate</option>
+
+                </select>
+
+            </div>
+            <!-- CHOSEN FILTER -->
+            <!-- ISOTOPE PROJECTOS -->
+            <div id="containerisotope">
+
+                <!-- #1 - ISOTOPE PROJECTO -->
+                <div class="itemiso temaambiente temaenergia propositomeet propositocreate propositoimprove">
+
+                    <div class="minimise"><div class="linha_redonda_azul_maxi"></div><h1>Design for the Base/Bottom of the Pyramid (Bop)</h1><br /></div>
+                    <div id="maximise">
+                        <div class="linha_redonda_azul_maxi1"></div>
+                        <div id="img-container">
+                            <div class="product-info0">
+                                <h1>Design for the Base/Bottom of the Pyramid (Bop)</h1>
+
+                                <h2>Use of design, collaborative and participatory methods human centered approach and sustainability concerns to create solutions to meet the needs and <span style="color:#00d2c3">improve health, income and living conditions of individuals and communities living in absolute poverty, at the base of the (economic) pyramid</span>  – the estimated 4-billion people living on incomes less than $4/day (Whitney & Kelkar 2004).</h2>
+                            </div>
+                        </div>
+
+                        <div id="img-container1">
+                            <div class="product-info">
+                                <div class="linha_redonda_azul_maxi">Who and Where<br /></div><h2>
+                                    <a style="color:black; text-decoration:none" href="http://d-rev.org" target="_blank"><strong>D-REV</strong></a>   <br />
+                                    U.S.A.~ India, Haiti, Nepal, Ecuador, Uganda, Kenya, Tanzania, Nigeria, Sri Lanka, Btswana, Bangladesh, Iraq <br /><img src="simbolo.png" alt="symbol"><br />
+                                    <a style="color:black; text-decoration:none" href="http://www.io.tudelft.nl/en/research/oud/projecten/base-of-the-pyramid/" target="_blank"><strong>Base of the Pyramid Program, Faculty of Industrial Design Engeneering, TU Delft</strong></a><br />
+                                    The Netherlands~ Botswana, Brazil, Cambodia, China, Ethiopia, Gambia, Ghana, Guatemala, Honduras, India, Indonesia, Kenya, Madagascar, Tanzania, Vietnam <br /><br />
+                                    <a style="color:black; text-decoration:none" href="http://id.iit.edu/research-projects/faculty-led-research/design-for-the-base-of-the-pyramid/" target="_blank"><strong>Design for the Base of the Pyramid Research, Institute of Design ITT</strong></a>
+                                    <br />
+                                    U.S.A.~ India, U.S.A. <br /><br /><a style="color:black; text-decoration:none" href="http://d-lab.mit.edu/" target="_blank"><strong>D-Lab, MIT</strong></a>
+                                    <br />
+                                    U.S.A.~ Brazil, Cambodia, El Salvador, Ghana, Guatemala, Haiti, Honduras, India, Nicaragua, Tanzania, Uganda, Zambia
+                                </h2>
+                            </div>
+                        </div>
+                        <div id="img-container2">
+                            <div class="product-info1">
+                                <div class="hmil1">Process</div>
+                                <div class="hmil">Design, Human centered, Sustainability</div>
+                            </div>
+                            <div class="product-info1">
+                                <div class="hmil1">Purpose</div>
+                                <div class="hmil">to create . to meet . to improve</div>
+                            </div>
+                            <div class="product-info1"><div class="hmil1">Problem</div><div class="hmil">- individuals and communities living in absolute poverty, at the base of the (economical) pyramid.</div></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- #1 - ISOTOPE PROJECTO -->
+                <!-- #2 - ISOTOPE PROJECTO -->
+                <div class="itemiso temaagua propositoassist">
+                    <div class="minimise"><div class="linha_redonda_azul_maxi"></div><h1>Humanitarian Design</h1></div>
+                    <div id="maximise">
+                        <div class="linha_redonda_azul_maxi1"></div>
+                        <div id="img-container">
+                            <div class="product-info0">
+                                <h1>Humanitarian Design</h1>
+                                <h2>Use of design, collaborative and participatory methods and human centered approach to create solutions <span style="color:#00d2c3">to support or assist individuals lacking basic human needs and rights</span> – food, shelter, water, electric power, sanitation, education, health etc – with all actors and bodies involved in <span style="color:#00d2c3">emergency humanitarian aid and development in contexts of extreme poverty, devastation caused by war or natural disasters</span> (Nussbaum 2010; Cary & Meron 2013).</h2>
+                            </div>
+                        </div>
+
+                        <div id="img-container1">
+                            <div class="product-info">
+                                <div class="linha_redonda_azul_maxi">Who and Where<br /></div><h2>
+                                    <a style="color:black; text-decoration:none" href="http://humanitariandatabase.com" target="_blank"><strong>Humanitarian Design Bureau</strong></a> <br />
+                                    France<br /> <br /><br /><a style="color:black; text-decoration:none" href="http://littlesun.com" target="_blank"><strong>Little Sun</strong></a>
+                                    <br />
+                                    Germany~ Burundi, Ethiopia, E.U., Japan, Kenya, Senegal, South Africa, Uganda, U.S.A., Zimbabwe <br /><br />
+                                    <a style="color:black; text-decoration:none" href="http://www.razon-social.org" target="_blank"><strong>Razón Social</strong></a>
+                                    <br />
+                                    Mexico <br /><br />
+                                    <a style="color:black; text-decoration:none" href="http://designerswithoutborders.org" target="_blank"><strong>Designers without borders</strong></a>
+                                    <br />
+                                    Uganda, U.S.A.~ Cameroun, South Africa, Uganda, U.S.A.
+                                </h2>
+                            </div>
+                        </div>
+                        <div id="img-container2">
+                            <div class="product-info1">
+                                <div class="hmil1">Process</div>
+                                <div class="hmil">Design, Collaborative Participative, Human centered</div>
+                            </div><div class="product-info1">
+                                <div class="hmil1">Purpose</div>
+                                <div class="hmil">to create . to support . to assist</div>
+                            </div><div class="product-info1">
+                                <div class="hmil1">Problem</div><div class="hmil">
+                                    - individuals lacking basic human needs and rights;<br />
+                                    - emergency humanitarian aid and development;<br />
+                                    - contexts of extreme poverty, devastation caused by war or natural disasters.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- #2 - ISOTOPE PROJECTO -->
+
+            </div>
+            <!-- ISOTOPE PROJECTOS -->
+            <!-- SIDEPANEL BANCO INSPIRACOES -->
+            <div class="container">
+                <h4 class="text-center text-center mb-4" style="font-family: 'Maven Pro', sans-serif;color: #125582;">Existem outras questões, reflexões e informações <br>que poderão ser relevantes na definição de ideias e construção <br>de propostas nesta área temática</h4>
+                <div class="filtr-controls text-center lead text-uppercase mb-3" style="color: #125582;">
+                    <span class="active d-inline-block mx-3 py-1 position-relative" data-filter="all">TODAS</span><span class="d-inline-block mx-3 py-1 position-relative" data-filter="1">OBJECTIVO 1 </span><span class="d-inline-block mx-3 py-1 position-relative"
+                                                                                                                                                                                                                    data-filter="2">OBJECTIVO 2</span>
+                </div>
+                <div class="row filtr-container">
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="2,3">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light" style="background-color: #8ec44a !important;">
+                                <h5 class="m-0">#1</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/img_002.jpg">
+                            <div class="card-body">
+                                <p>Texto do projecto blablblablalbalblalbalblalblablalblablalblablalblablalbalba</p>
+                                <p class="card-text" style="bottom:0 !important;">Texto do projecto blablblablalbalblalbalblalblablalblablalblablalblablalbalba</p>
+                            </div>
+                            <div class="d-flex card-footer" style="background-color: #8ec44a !important;"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-light btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light" style="background-color: #125582 !important;">
+                                <h5 class="m-0">#2</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/img_001.jpg">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Peiores principem Constantium cautela sed cetera et nimia graves cetera modi in titulo causarum infudisset plagas apud sed ut siquid. Invadere tabescebat
+                                    egressus ullo flagitii per parans per egressus edictus.<br>
+                                </p>
+                            </div>
+                            <div class="d-flex card-footer" style="background-color: #125582 !important;"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-light btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="2">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light" style="background-color: #8ec44a !important;">
+                                <h5 class="m-0">#3</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/img_003.jpg">
+                            <div class="card-body">
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Observantes habitu ignoti conspiratione poterant homines formido cognita malorum conpluribus peragranter divites fingerent poterant peragranter.<br></p>
+                            </div>
+                            <div class="d-flex card-footer" style="background-color: #8ec44a !important;"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-light btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="3">
+                        <div class="card" style="height: 100%;">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Lorem Ipsum</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/portfolio/cabin.png">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Populique et auctoritate cum sint partes regina canities et circumspectum certamina suffragiorum reverenda et set circumspectum temporis auctoritate certamina
+                                    verecundum quotquot domina per et sint auctoritate sunt omnes ubique redierit.<br>
+                                </p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1,2">
+                        <div class="card border-dark" style="height: 100%;">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Lorem Ipsum</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/portfolio/submarine.png">
+                            <div class="card-body">
+                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Vocis indigna adlocutus prodesse custodiam ut adlocutus commune vita commune.<br></p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 filtr-item" data-category="1,3">
+                        <div class="card border-dark" style="height: 100%;">
+                            <div class="card-header bg-dark text-light">
+                                <h5 class="m-0">Lorem Ipsum</h5>
+                            </div><img class="img-fluid card-img w-100 d-block rounded-0" src="assets/img/portfolio/game.png">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Nullam id dolor id nibh ultricies vehicula ut id elit.&nbsp;Et admiratio incidere magis eo incidere et forte pauci una admiratio eum Pompeio Q tum dissideret querella et forte una hemicyclio ore illum admiratio
+                                    hominum is saepe tum magis tum. Et admiratio incidere magis eo incidere et forte pauci una admiratio eum Pompeio Q tum dissideret querella et forte una hemicyclio ore illum admiratio hominum is saepe tum magis
+                                    tum.<br>
+                                </p>
+                            </div>
+                            <div class="d-flex card-footer"><button class="btn btn-dark btn-sm" type="button"><i class="fa fa-eye"></i>&nbsp;Button 1</button><button class="btn btn-outline-dark btn-sm ml-auto" type="button"><i class="fa fa-plus"></i>&nbsp;Button 2</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <article class="bg-light text-dark py-4 mt-5" style="background-color: white !important;">
+                <div class="container">
+                    <div class="filtr-controls text-center lead text-uppercase mb-3" style="color: #125582;"><button class="btn" type="button" style="width: 20%;background-color: #125582;color: white;">IR PARA ARQUIVO</button></div>
+                </div>
+            </article>
+        </div>
+    </div>
+    
+    <!--SIDEPANEL BOTAO-->
+    <!--MENU NAVEGACAO CML-->
+    <!--<nav class="navbar  bg-dark fixed-top"  >
+        <div class="container" ><a class="navbar-brand logocml" style="" href="http://www.cm-lisboa.pt" target="_blank" style="">Camara Municipal de Lisboa</a></div>
+    </nav>-->
+    <!--MENU NAVEGACAO-->
+    <nav class="navbar nav-pills navbar-expand-sm bg-dark navbar-dark fixed-top" style="background-color: #006f9a!important;">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html"><img src="assets/img/logoOp-270a5013e3.png" class="logolisboaparticipa"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <!-- Links -->
+            <ul class="navbar-nav ">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        TEMAS
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" style="background-color: #006f9a; color:white;" href="temaagua.html">ÁGUA</a>
+                        <a class="dropdown-item" style="background-color: #006f9a; color:white; " href="teamenergia.html">ENERGIA</a>
+                        <a class="dropdown-item" style="background-color: #006f9a; color:white;" href="temamobilidade.html">MOBILIDADE</a>
+                        <a class="dropdown-item" style="background-color: #006f9a;color:white; " href="temaambiente.html">AMBIENTE</a>
+                        <a class="dropdown-item" style="background-color: #006f9a;color:white; " href="temareciclagem.html">RECICLAGEM</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#section5">SUGESTÕES</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="btn btn-danger"; type="button"; color: white;  href="startbootstrap-freelancer-gh-pages/Boas.html">BOAS PRÁTICAS</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <!--MENU NAVEGACAO-->
+    <!--FULLPAGE CONTROLS START-->
+
+    <div id="fp-nav" class="fp-right" style="margin-top: -33.5px;display: block;">
+        <ul>
+            <li>
+                <a class="active" href="#firstPage"><span class="fp-sr-only"></span><span></span></a>
+                <div class="fp-tooltip fp-right"></div>
+            </li>
+            <li>
+                <a href="#secondPage"><span class="fp-sr-only"></span><span></span></a>
+                <div class="fp-tooltip fp-right"></div>
+            </li>
+            <li>
+                <a href="#secondPage"><span class="fp-sr-only"></span><span></span></a>
+                <div class="fp-tooltip fp-right"></div>
+            </li>
+        </ul>
+    </div>
+    <!--FULLPAGE CONTROLS END-->
+    <!--FULLPAGE START -->
+    <div id="fullpage" class="fullpage-wrapper sidebar-map" style="height: 100%;position: relative;">
+
+        <!--FULLPAGE SECTION#1 » INTRO WIKIOP -->
+        <div class="section fp-section fp-table active fp-completely" id="section1" data-fp-styles="null" data-anchor="temaAgua">
+            <div class="fp-tableCell" style="display:table-cell!important;">
+                <div class="intro col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="cursor: context-menu;">
+                    <h4 class="text-center text-center mb-4" style="font-family: 'Maven Pro', sans-serif;color: white;margin-top: 7vh;margin-bottom: 7vh!important;">
+                        Este é um site em constante crescimento.<br>
+                        Existem muitas outras questões, reflexões e informações sobre o tema que poderão ser importantes e tidas em conta para fazer Lisboa Evoluir.<br>
+                        Caso tenha interesse, partilhe as mesmas connosco
+                        <u>aqui</u>.
+                    </h4>
+                    <div class="row" style="height: 10%;">
+                        <div class="col text-center">
+                            <form class="col-lg-12">
+                                <div class="form-group">
+                                    <div class="row text-center">
+                                        <input type="text" class="col-lg" placeholder="NOME">
+                                        <input type="email" class="col-lg" placeholder="EMAIL">
+                                        <input type="text" class="col-lg" placeholder="ASSUNTO">
+                                    </div>
+                                    <textarea class="w-100" placeholder="MENSAGEM" rows="10"
+                                              style="margin-top: 1vh;"></textarea>
+                                    <button type="submit" class="btn btn-primary" style="border: solid 1px #125582; background-color: #125582; color:white;">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+      
+    </div>
+    <!--FULLPAGE END -->
+    <!-- Footer -->
+    <footer class="page-footer font-small" style="color:white; background-color:#125582;">
+
+        <div class="container col-lg-12" style="display: table">
+            <div class="row py-1">
+                <div class="col-lg text-center" style="font-family: 'Maven Pro', sans-serif;">
+
+                    <img class="img-fluid d-block rounded-0" style="width:20%;" align="middle" src="assets/img/Logotipo-CML_fonteDIN_horizontal_1-cor_white2.png">
+                </div>
+                <div class="col-lg text-center ">
+                    © 2020 Copyright:
+                    <a style="color: white; text-decoration: none;" href="https://www.localsapproach.org/"><img class="img-fluid rounded-0" style="width:12%;" src="assets/img/identidade_oficial-01.png"></a>
+                    <a style="color: white; text-decoration: none;" href="https://www.resdochao.org/"><img class="img-fluid  rounded-0" style="width:15%;" src="assets/img/about-logo.png"></a>
+
+                </div>
+                <div class="col-lg text-center" style="font-size: 0.8rem;">
+                    <!--     framework: JQuery + Bootstrap + Fullpage JS + Isotope JS + Chosen JS-->
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <!-- <div class="footer-copyright text-center py-1">© 2020 Copyright:
+           <a style="color: white; text-decoration: none;" href="https://www.localsapproach.org/"> Localsapproach</a> + <a style="color: white; text-decoration: none;" href="https://www.resdochao.org/">Rés-do-Chão</a>
+         </div>
+         <!-- Copyright -->
+
+
+
+
+    </footer>
+    <!-- Footer -->
+    <!-- JAVASCRIPTS -->
+    <!-- SIDEPANEL LOADER -->
+    <script src="assets/js/sidepanelloader.js"></script>
+    <!-- SIDEPANEL LOADER -->
+    <!-- JQUERY UI -->
+    <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <!-- JQUERY UI -->
+    <!-- JQUERY FULLPAGE JS 2.9.4 -->
+    <script src="assets/js/jquery.fullpage.js"></script>
+    <!-- JQUERY FULLPAGE JS 2.9.4 -->
+    <!-- JQUERY EASING -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!-- JQUERY EASING -->
+    <!-- PRISM -->
+    <script src="assets/prism/prism.js" type="text/javascript" charset="utf-8"></script>
+    <!-- PRISM -->
+    <!-- ISOTOPE 3.0.6 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- ISOTOPE 3.0.6 -->
+    <!-- CHOSEN 1.1.0 -->
+    <script src="assets/chosen/chosen.jquery.js"></script>
+    <!-- CHOSEN 1.1.0 -->
+    <!-- ISOTOPE LOADER -->
+    <script src="assets/js/isotopeloader.js"></script>
+    <!-- ISOTOPE LOADER -->
+    <!-- FONTS LOADER -->
+    <script src="assets/fonts/all.js"></script>
+    <!-- FONTS LOADER -->
+    <!-- SCROLLOVERFLOW iScroll.js 0.1.3 -->
+    <script src="assets/js/scrolloverflow.min.js"></script>
+    <!-- SCROLLOVERFLOW iScroll.js 0.1.3 -->
+    <!-- FULLPAGE 3.0.8-->
+    <script src="assets/js/fullpage.js"></script>
+    <!-- FULLPAGE 3.0.8-->
+    <!-- CHOSEN LOADER -->
+    <script src="assets/js/chosenloader.js"></script>
+    <!-- CHOSEN LOADER -->
+    <!-- VIDEO CONTROLS LOADER -->
+    <script src="assets/js/videocontrolos.js"></script>
+    <!-- VIDEO CONTROLS LOADER -->
+    <!-- VER + BOTOES LOADER -->
+    <script src="assets/js/botoesvermais.js"></script>
+    <!-- VER + BOTOES LOADER -->
+    <!-- FULLPAGE LOADER -->
+    <script src="assets/js/fullpageloader.js"></script>
+    <!-- FULLPAGE LOADER -->
+    <!-- ACCORDION LOADER -->
+    <script src="assets/js/accordionloader.js"></script>
+    <!-- ACCORDION LOADER -->
+    <!-- CAROUSEL LOADER -->
+    <script src="assets/js/carousel_loader.js"></script>
+    <!-- CAROUSEL LOADER -->
+    <!-- CARDS FILTER LOADER -->
+    <script src="assets/js/-Filterable-Cards-.js"></script>
+    <!-- CARDS FILTER LOADER -->
+    <!-- FULLPAGE 3.0.8 EXTENSIONS 0.1.9 -->
+    <script src="assets/js/fullpage.extensions.min.js"></script>
+    <!-- FULLPAGE 3.0.8 EXTENSIONS 0.1.9 -->
+    <!-- JAVASCRIPTS -->
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+img.linkagua {
+  width:60vw;
+}
+	
+}
+
+
+
+img.linkagua {
+  width:100%!important;
+
+}
+
+img.linkagua:hover {
+  border: solid 1px white;
+
+}

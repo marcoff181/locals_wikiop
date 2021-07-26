@@ -1,0 +1,255 @@
+/*ACCORDION STYLES*/
+
+.accordion {
+  /*background-color: #eee;*/
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  /*border: none;*/
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+.collapse.show {
+  height: auto;
+ /* max-height: 100vh;*/
+ padding:18px;
+}
+
+
+/*LINHA SEPARADORA*/
+.divider-split-full {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+	
+	}
+
+
+/*ACCORDION ICON PERGUNTAS */
+[data-toggle="collapse"][aria-expanded="true"] > .js-rotate-if-collapsed {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+
+	/*ACCORDION SUBTEMAS*/
+.btn.text-left.botaosubtema:focus {
+  /*border: 1px solid #125582;*/
+  margin-top: 0.2vh;
+  background-color: #125582;
+  color: white !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.btn.text-left.botaosubtema:hover {
+  /*border: 1px solid #125582;*/
+  margin-top: 0.2vh;
+  background-color: #125582;
+  color: white !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.a.btn.text-left.botaosubtema {
+  border-top: 1px solid #125582;
+  margin-top: 0.2vh;
+  border-bottom: 1px solid #125582;
+  font-family: 'Maven Pro', sans-serif;
+  color: #125582;
+}
+
+
+.text-left.botaosubtema.accordion {
+  border-top: 1px solid #125582;
+  margin-top: 0.2vh;
+  border-bottom: 1px solid #125582;
+  /*font-family: 'Maven Pro', sans-serif;*/
+  /*color: #125582 !important;*/
+  font-weight: 400;
+}
+
+.text-left.botaosubtema.accordion:visited {
+  border: 1px solid #125582 !important;
+  margin-top: 0.2vh;
+  background-color: #125582;
+  color: white !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.text-left.botaosubtema.accordion:hover {
+  /*margin-top: 0.2vh;*/
+ /* background-color: #125582;
+  color: white !important;*/
+  font-family: 'Maven Pro', sans-serif;
+    /*font-weight: 900;*/
+}
+
+/*.text-left.estiloperguntageral.accordion:active {
+  margin-top: 0.2vh;
+  background-color: #125582 !important;
+  color: white !important;
+  /*font-family: 'Maven Pro', sans-serif;
+}*/
+
+
+		/*ACCORDION PERGUNTAS*/
+		.textorespostas1{
+font-size: 1rem;
+color: #125582;
+z-index:10;
+ text-align: justify !important;
+  text-justify: inter-word;
+}
+
+.textorespostas{
+font-size: 1rem;
+color: #125582;
+z-index:10;
+ text-align: justify !important;
+  text-justify: inter-word;
+}
+
+.textorespostas:visited{
+font-size: 1rem;
+color: white !important;
+z-index:10;
+}
+
+.textorespostas:hover{
+font-size: 1rem;
+color: white !important;
+z-index:10;
+}
+
+.textorespostas:focus{
+font-size: 1rem;
+color: white !important;
+z-index:10;
+}
+
+
+.botaoinfoperguntas{
+font-size: 1rem;
+color: #125582;
+z-index:10;
+ text-align: justify;
+  text-justify: inter-word;
+}
+
+.botaoinfoperguntas:hover{
+font-size: 1rem;
+color: green !important;
+z-index:10;
+}
+
+.text-left.subsubpergunta.accordion1 {
+ /*border-top: 1px solid #125582;
+ 
+  border-bottom: 1px solid #125582;*/
+   margin-top: 0.2vh;
+  /*font-family: 'Maven Pro', sans-serif;*/
+  /*color: #125582 !important;*/
+  font-weight: 400;
+}
+
+.text-left.subsubpergunta.accordion1:visited {
+  border: 1px solid #125582 !important;
+  margin-top: 0.2vh;
+  background-color: #125582;
+  color: white !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.text-left.subsubpergunta.accordion1:hover {
+ /* margin-top: 0.2vh;*/
+  background-color: #125582;
+  color: white !important;
+   font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+}
+
+
+
+.text-left.subsubpergunta.accordion1:focus {
+  color: white !important;
+  background-color: #125582 !important;
+}
+
+
+/*SIDEPANEL*/
+
+.bs-canvas-overlay {
+   		opacity: 0;
+		z-index: -1;
+	}
+	
+	.bs-canvas-overlay.show {
+   		opacity: 0.85;
+		z-index: 1100;
+	}
+	
+	.bs-canvas-overlay, .bs-canvas {
+		transition: all .4s ease-out;
+		-webkit-transition: all .4s ease-out;
+		-moz-transition: all .4s ease-out;
+		-ms-transition: all .4s ease-out;
+	}
+	
+	.bs-canvas {
+		top: 0;
+		z-index: 1110;
+		overflow-x: hidden;
+		overflow-y: auto;
+		width: 50%;		
+	}
+	
+	.bs-canvas-left {
+		left: 0;
+		margin-left: -50%;
+	}
+	
+	.bs-canvas-right {
+		right: 0;
+		margin-right: -50%;
+	}
+
+  .textobotaovertical{
+    display:block;
+    color:white;
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform: rotate(180deg);
+  }
+
+
+	
+@media only screen and (max-width: 600px) {
+	.bs-canvas {
+		top: 0;
+		z-index: 1110;
+		overflow-x: hidden;
+		overflow-y: auto;
+		width: 100%;		
+	}
+	
+	
+  .bs-canvas-right {
+		right: 0;
+		margin-right: -100%;
+	}
+}

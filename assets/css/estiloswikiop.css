@@ -1,0 +1,440 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.logocml {
+color: white !important;
+/*font-size: 15px;*/
+/*height:30px;*/
+position: relative;
+vertical-align:middle;
+}
+
+.textointroobjectivos{
+	padding: 4vh;
+font-family: 'Maven Pro', sans-serif;
+font-weight: normal;
+color: #4545f3; 
+position: relative;
+font-size: 0.5rem !important;
+/*line-height:40px;*/
+
+}
+
+h1 ul,
+h1 li {
+    margin-left: 0;
+    list-style-type: none;
+    padding-left:0;
+}
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+.textointro{
+	/*margin-top: -10vh;*/
+width: 100%;
+/*display: table-cell;*/
+/*border: 1px solid red;*/
+padding:30px;
+color:white!important;
+font-weight: 400;
+font-family: 'Maven Pro', sans-serif;
+text-align: center;
+}
+
+
+h1 ul,
+h1 li {
+    margin-left: 0;
+    list-style-type: none;
+    padding-left:0;
+}
+
+}
+
+
+/* Large devices (landscape tablets, 768px and up) */
+/* Estilos NAVBAR*/
+.logocml {
+color: white !important;
+font-size: 0.5rem;
+min-height: 20px;
+max-height: 20px;
+/*margin-left: 20px!important;*/
+}
+
+#NavMENU2{
+
+background-color: #006f9a !important;
+position: fixed !important;
+}
+
+.logolisboaparticipa {
+min-width: 5rem;
+max-width: 5rem;
+}
+.bg-primarywikiop {
+    background-color: white !important;
+	color:#006f9a;
+}
+
+.dropdown-toggle.active, .dropdown-toggle:active{
+	background-color:#4545f3 !important;
+	}
+
+ a.nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color:#4545f3 !important;
+}
+ a.dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color:#4545f3 !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color:#4545f3 !important;
+
+}
+
+
+
+
+/* Estilos CONTROLOS FULLPAGE*/
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+   /*background: grey !important;*/
+	
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+    right: 20px;
+    color: white !important;
+    background-color: #125582 !important;
+	font-family: 'Maven Pro', sans-serif;
+	padding: 4px;
+}
+
+/* Estilos SECTION #1*/
+
+#section1{
+/*background-color: white; */
+/*height:941px !important;*/
+}
+	/* Estilos Carousel Intro*/
+
+.textointro{
+	/*margin-top: -10vh;*/
+width: 100%;
+/*display: table-cell;*/
+/*border: 1px solid red;*/
+padding:30px;
+color:white!important;
+font-weight: 400;
+font-family: 'Maven Pro', sans-serif;
+text-align: center;
+}
+.textointroagua1{
+font-family: 'Maven Pro', sans-serif;
+color: #125582;
+font-size: 3rem;
+}
+.textopequenoagua1{
+font-size: 1.2rem;
+color: #125582;
+}
+.textopequeno{
+font-size: 1.2rem;
+color: white;
+}
+
+/* Estilos SECTION #2*/
+
+#section2{
+/*background-color: white; */
+/*height:941px !important;*/
+}
+
+/*#divcontainersection2{
+	width: 100% !important;
+	padding-top: 8vh;
+
+}*/
+
+
+
+.slidesdadosinfotexto {
+ height: 90%;
+ background-color:white !important;
+}
+
+.textointroobjectivos{
+	padding: 7vh;
+font-family: 'Maven Pro', sans-serif;
+font-weight: normal;
+color: #4545f3; 
+position: relative;
+font-size: 1.5rem !important;
+/*line-height:40px;*/
+
+}
+
+video {
+
+/*Your CSS here for styling*/
+}
+
+
+
+	
+
+a.source {
+	position: relative;
+	/*top: 12px;*/
+	z-index:10;
+	
+}
+
+a.source {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	position: relative;
+	opacity: .5;
+	border: 1px solid #125582; /* stroke */
+	border-radius: 12px; /* border radius */
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #efefef; /* layer fill content */
+	line-height: 22px;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #125582;
+	text-decoration: none;
+	z-index:10 !Important;
+	left: 20px;
+}
+
+div.section-wrap:nth-child(even) a.source {
+	background-color: #ffffff;
+}
+
+a.source[title]:hover:after {
+	content: attr(title);
+	/*display: inline-block;*/
+	width: 240px;
+	padding: 8px;
+	position: absolute;
+	bottom: 36px;
+	left: ;
+	border-radius: 6px;
+	border: 2px solid #125582;
+	/*box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background: white;
+}
+
+a.source:hover {
+	opacity: 1;
+}
+
+/*SOURCE INFO TEXTO */
+a.source2 {
+
+	/*top: 12px;*/
+	z-index:10;
+	
+}
+
+a.source2 {
+	
+}
+
+div.section-wrap:nth-child(even) a.source2 {
+	background-color: #125582;
+}
+
+a.source2[title]:hover:after {
+	content: attr(title);
+	/*display: inline-block;*/
+	width: 240px;
+	padding: 8px;
+	position: absolute;
+	/*bottom: 36px;
+	left: ;*/
+	border-radius: 6px;
+	border: 2px solid #125582;
+	/*box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background: white;
+
+	
+
+}
+
+a.source2:hover {
+	opacity: 1;
+}
+/*SOURCE INFO TEXTO */
+
+/*SOURCE INFO LINKS */
+a.source1 {
+
+	/*top: 12px;*/
+	z-index:10;
+	
+}
+
+a.source1 {
+	
+}
+
+div.section-wrap:nth-child(even) a.source1 {
+	background-color: #125582;
+}
+
+a.source1[title]:hover:after {
+	content: attr(title);
+	/*display: inline-block;*/
+
+	width: 100%;
+	padding: 8px;
+	position: absolute;
+	top: 30px;
+	/*left: 5px;*/
+	border-radius: 6px;
+	background-color: #125582;
+	border: 1px solid #125582;
+	/*box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
+	text-align: center;
+	line-height: 30px;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:white;
+
+}
+
+a.source1:hover {
+	opacity: 1;
+}
+/*SOURCE INFO LINKS */
+
+/*BOTAO VER + */
+.btnvermais {
+	font-size: 1rem; 
+	border-color:#125582!important; 
+	color:#125582!important; 
+	background-color:white!important
+}
+
+.btnvermais:hover {
+	background-color: #125582!important;
+	color:white!important; 
+}
+/*BOTAO VER + */
+
+
+/*LISTA SEM PADDING*/
+h1 ul,
+h1 li {
+    margin-left: 0;
+    list-style-type: none;
+    padding-left:0;
+}
+
+/*LISTA SEM PADDING*/
+
+
+/*CONTROLOS CAROUSEL*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  /*border-radius: 50%;
+  border: 1px solid black;*/
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #125582;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #125582;
+}
+/*CONTROLOS CAROUSEL*/
+.carousel-indicators li{
+box-sizing: content-box;
+-ms-flex: 0 1 auto;
+flex: 0 1 auto;
+width: 30px;
+height: 3px;
+margin-right: 3px;
+margin-left: 3px;
+text-indent: -999px;
+cursor: pointer;
+background-color: #125582;
+background-clip: padding-box;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+opacity: .5;
+transition: opacity .6s ease;
+}	
+
+
+/*NAVBAR*/
+.dropdown-menu.show {
+    display: block;
+    background-color: rgb(106, 106, 239);
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    margin-left:2rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+	margin-right: 2rem;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #125582;
+}
+
+.chosen-container .chosen-results li.active-result:hover {
+background-color: #125582;
+color:white;
+	}

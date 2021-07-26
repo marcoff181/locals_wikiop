@@ -1,0 +1,140 @@
+<!--coluna perguntas OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                    <div class="col" style="margin-right:2vw;">
+
+<div id="subtema1collapse">
+        <!--SUBTEMA #1 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+                    <div id="agua_subtema1" style="">
+    
+    <!--SUBTEMA #1 » PERGUNTA #1 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+    <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion" aria-expanded="false" role="button" tabindex="1" data-parent="#subtema1collapse">
+    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+ 
+    1. Informação relevante de estratégias, programas, iniciativas, incentivos e projectos existentes
+    </a>
+    
+    <!--SUBTEMA #1 » PERGUNTA #1 » RESPOSTA #1 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+        <div class="panel" id="painelaccordion" style="">
+        
+              
+        <a href="#painelvideo" class="btn text-left subsubpergunta accordion1 textorespostas" id="accordion1" type="button" style=" width: 100%; height: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordionsubpergunta"  aria-expanded="false" role="button" tabindex="1"  data-parent="#subtema1collapse">
+        
+        
+        <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+        <b> 1.1.Pergunta:</b> Quais as estratégias que têm como objectivo reduzir o consumo de água (nomeadamente, através da optimização dos sistemas de captação e retenção de água) que foram implementados / estão previstos e/ou em implementação por parte da CML, Junta(s) de Freguesia(s) e outras entidades (natureza pública e privada que considere relevantes? 
+                     
+         <br /></a>
+        
+         
+         
+         <!--SUBTEMA #1 » PERGUNTA #1 » RESPOSTA #1 » #1 » OBJECTIVO #1 » OBJECTIVOS ÁGUA -->
+            <div class="panel-collapse collapse" id="painelaccordionsubpergunta" style="border: solid 1px #125582;">
+            <div ms-hide-element="true" style="margin-top:5vh; background-color:#125582;" class="divider-split-full"></div>
+            
+            <div style="text-align:center" id="painelvideo"> 
+  
+   
+  <video id="video1" width="100%" height="100%">
+  <source src="/assets/videos/video_OP1_2_export_prem.webm" type="video/webm">
+  
+ </video>
+ <div ms-hide-element="true" style="margin-bottom:2vh; background-color:#125582;" class="divider-split-full"></div>
+<button style="border: 0; background-color: white; " onclick="playPause()"><i class="fas fa-play fa-2x" style="color:#125582; margin-right: 2vw;"></i><i class="fas fa-pause fa-2x" style="color:#125582;"></i></button> 
+  <!--<button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button> -->
+ 
+</div> 
+            <div ms-hide-element="true" style="margin-top:2vh; margin-bottom:5vh; background-color:#125582;" class="divider-split-full"></div>
+            
+                <p class="textorespostas1" style="margin-bottom:2vh;"><b> Resposta:</b><br /><br />
+                A CML através do PDM e EMAAC (Estratégia municipal de adaptação às alterações climáticas), definem como relevante:<br /><br />
+                -promover a recolha e armazenamento de águas pluviais;<a class="source"  href="#video1" style="text-align: center;" type="button" title="Clica para veres o video"><i class="fa fa-info" style="text-align:center;"></i></a>
+               
+                
+                 <br /><br />
+                -promover a reutilização de águas residuais(colocar explicação de águas residuais) para a rega, lavagem de ruas, outros;<a class="source"  href="#video1" style="text-align: center;" type="button" title="Reutilização de águas residuais"><i class="fa fa-info" style="text-align:center;"></i></a><br /><br />
+                -reforçar o Sistema Hidrológico, através da implementação de bacias de retenção (definição)<br /><br />-aumentar as áreas de espaço verde com
+                    rega reduzida ou nula, de forma a reduzir o consumo de água<br /><br />-instalar sistemas de monitorização das necessidades hídricas do solo e regulação da rega em função das mesmas, de forma a reduzir o consumo de água<br /><br />
+                    
+                    
+                </p>
+                
+                <a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block;  border-top: 1px solid #125582;  margin-top: 0.2vh;  border-bottom: 1px solid #125582;" data-toggle="collapse" data-target="#painelaccordionsubpergunta1" aria-expanded="false" role="button" tabindex="1">
+                <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                <b>1.1.1.Pergunta:</b> Quais as estratégias?</a>
+                
+                <div class="panel" id="painelaccordionsubpergunta1" style="border: solid 1px #125582;">
+                    <p class="textorespostas1" style="margin-top:5vh;"><b> Resposta:</b><br /><br />
+                    A CML através do PDM e EMAAC (Estratégia municipal de adaptação às alterações climáticas), definem como relevante:<br /><br />-promover a recolha e armazenamento de águas pluviais;<br /><br />-promover a reutilização de águas residuais
+                        (colocar explicação de águas residuais) para a rega, lavagem de ruas, outros;<br /><br />-reforçar o Sistema Hidrológico, através da implementação de bacias de retenção (definição)<br /><br />-aumentar as áreas de espaço verde
+                        com rega reduzida ou nula, de forma a reduzir o consumo de água<br /><br />-instalar sistemas de monitorização das necessidades hídricas do solo e regulação da rega em função das mesmas, de forma a reduzir o consumo de água<br
+                        /><br />
+                        
+                        </p>
+    </div>
+    
+     <a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block; margin-top: 0.2vh;  border-bottom: 1px solid #125582;" data-toggle="collapse" data-target="#painelaccordionsubpergunta2" aria-expanded="false" role="button" tabindex="1">
+                <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                <b>1.1.2.Pergunta:</b> Quais os projectos implementados?</a>
+                
+               
+    <div
+        class="panel" id="painelaccordionsubpergunta2" style="border: solid 1px #125582;">
+        <p class="textorespostas1" style="margin-top:5vh;"><b> Resposta:</b><br /><br />
+        A CML através do PDM e EMAAC (Estratégia municipal de adaptação às alterações climáticas), definem como relevante:<br /><br />-promover a recolha e armazenamento de águas pluviais;<br /><br />-promover a reutilização de águas residuais (colocar
+            explicação de águas residuais) para a rega, lavagem de ruas, outros;<br /><br />-reforçar o Sistema Hidrológico, através da implementação de bacias de retenção (definição)<br /><br />-aumentar as áreas de espaço verde com rega reduzida ou
+            nula, de forma a reduzir o consumo de água<br /><br />-instalar sistemas de monitorização das necessidades hídricas do solo e regulação da rega em função das mesmas, de forma a reduzir o consumo de água<br /><br /><a href="#"><i class="fa fa-star" href="imagem"></i></a></p>
+</div>
+
+<a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block; margin-top: 0.2vh;  border-bottom: 1px solid #125582;" data-toggle="collapse" data-target="#painelaccordionsubpergunta3" aria-expanded="false" role="button" tabindex="1">
+                <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                <b>1.1.3.Pergunta:</b> Quais os resultados alcançados?</a>
+
+<div
+    class="panel" id="painelaccordionsubpergunta3" style="border: solid 1px #125582;">
+    <p class="textorespostas1" style="margin-top:5vh;"><b> Resposta:</b><br /><br />
+    Em 2014 registou-se a reutilização de águas residuais tratadas (definição), mas numa percentagem ainda pouco significativa - <strong>1,7%.</strong><br /><br /><span style="text-decoration: underline;">Matriz de água de Lisboa 2014</span> – pág. 33
+        e 34<br /><br /></p>
+    </div>
+    
+    <a class="btn text-left subsubpergunta accordion1" id="accordion1" type="button" style="width: 100%;color: #125582;font-family: 'Maven Pro', sans-serif; font-style: italic; text-align: justify !important; text-justify: inter-word; display:block; margin-top: 0.2vh;  " data-toggle="collapse" data-target="#painelaccordionsubpergunta4" aria-expanded="false" role="button" tabindex="1">
+                <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+                <b>1.1.4.Pergunta:</b> Sobre a temática poderão ainda consultar»</a>
+                
+   
+    <div
+        class="panel" id="painelaccordionsubpergunta4" style="border: solid 1px #125582;">
+        <p>Sobre a temática água poderão ainda consultar: <br /><br /><span style="text-decoration: underline;">PDM</span> artigos 11º, 13º, 22º, 35º <br /><br /><span style="text-decoration: underline;">Declaração Ambiental Plano Diretor Municipal </span>pág.
+            8 e 18<br /><br /><span style="text-decoration: underline;">EMAAC</span> pág. 11, 12, 18, 45, 46, 47, 50, 51, 58, 59, 60, 61, 62, 63, 64, 69, 70, 71,72, 73, 74, 87, 100, 101, 106, 108, 112, 113, 114, 116, 117, 118, 119, 120, 121, 122, 123,
+            124, 125 da <span style="text-decoration: underline;">Matriz de água de Lisboa 2014</span> – pág. 33 e 34<br /><br /><br /><br /><br /><br /><br /></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div id="agua_subtema2">
+    <div id="subtema2collapse">
+   <a id="accordion" class="btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif; text-align: justify; text-justify: inter-word;" data-toggle="collapse" data-target="#painelaccordion1" aria-expanded="false" role="button" tabindex="1">
+    <span class="fas fa-chevron-right js-rotate-if-collapsed"></span>
+      2. Que obstáculos e custos?</a>
+        <div class="panel"  id="painelaccordion1" style="border: solid 1px #125582;"><a class="text-left subsubpergunta accordion" id="accordion" type="button" style="width: 100%;height: 100%;color: #125582;font-family: 'Maven Pro', sans-serif;" role="button" tabindex="1"><span class="fa fa-minus" style="/*left: 10px;*/"></span><span class="fa fa-plus" style="left: 0!important;"></span> Quais as estratégias que têm como objectivo reduzir o consumo de água (nomeadamente, através da optimização dos sistemas de captação e retenção de água) que foram implementados / estão previstos e/ou em implementação por parte da CML, Junta(s) de Freguesia(s) e outras entidades (natureza pública e privada que considere relevantes?</a>
+            <p>Collapse content.</p>
+        </div>
+    </div>
+</div><div id="agua_subtema3"><div id="subtema3collapse"><a id="accordion" class="a btn text-left botaosubtema accordion" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif;/*line-height: 50%;*/" data-toggle="collapse" aria-expanded="false" aria-controls="collapse-3" role="button" tabindex="1"> <span class="fa fa-minus" style="/*left: 10px;*/"></span><span class="fa fa-plus" style="left: 0!important;"></span>  3. Impacto da proposta</a>
+    <div class="panel"  style="border: solid 1px #125582;"><em>badoinkz</em>
+            <p>Collapse content.</p>
+        </div>
+</div>
+	</div><div id="agua_subtema4">
+	<div id="subtema4collapse"><a id="accordion" class="a btn text-left botaosubtema accordion" href="#collapse-4" type="button" style="color: #125582;font-family: 'Maven Pro', sans-serif;/*line-height: 50%;*/" data-toggle="collapse" aria-expanded="false" aria-controls="collapse-4" role="button" tabindex="1"><span class="fa fa-minus" style="/*left: 10px;*/"></span><span class="fa fa-plus" style="left: 0!important;"></span>   4. Exequibilidade OP2020</a>
+    <div class="panel" style="border: solid 1px #125582;">
+        <p>-Existe alguma iniciativa / projeto previsto e/ou em implementação que coincida ou possa colidir com a sua proposta? <br /><br />-Conhece alguma iniciativa / projeto semelhante ou complementar à sua proposta que esteja em implementação e/ou já
+            tenha sido implementado?<br /><br />-A partilha desta iniciativa / projeto poderá ajudar a demonstrar a exequibilidade da sua proposta.<br /><br />-É possível implementar a sua proposta com o orçamento disponível?<br /><br />(O Projeto Estruturante
+            tem um valor de 1.400.000€; O Projeto Local tem um valor de 150.000€.)<br /><br />É importante avaliar os custos de manutenção que a implementação da sua proposta possa requerer, uma vez que os mesmos podem ser motivo de exclusão - <span style="text-decoration: underline;">ciclo e regras</span>.<br
+            /><br />-A sua proposta é tecnicamente exequível e cumpre os critérios de elegibilidade definidos no <span style="text-decoration: underline;">ciclo e regras</span> do O.P?<br /><br />-De que forma a sua proposta contribui (direta e indiretamente)
+            para os objetivos da Lisboa Capital Verde 2020?<br /></p>
+    </div>
+</div>
+	</div></div>
